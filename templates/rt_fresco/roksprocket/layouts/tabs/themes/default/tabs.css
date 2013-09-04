@@ -1,0 +1,54 @@
+/**
+* @version   $Id: tabs.css 905 2012-05-29 03:00:37Z kevin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Tabs Core */
+.sprocket-tabs {position: relative;overflow: hidden;}
+.sprocket-tabs:before, .sprocket-tabs:after {display: table;content: "";}
+.sprocket-tabs:after {clear: both;}
+
+/* Tabs Nav */
+.sprocket-tabs-nav {margin: 0;padding: 0;list-style: none;position: relative;z-index: 2;}
+.sprocket-tabs-nav:before, .sprocket-tabs-nav:after {display: table;content: "";}
+.sprocket-tabs-nav:after {clear: both;}
+.sprocket-tabs-nav li {float: left;border-radius: 4px;margin-right: 12px;font-weight: bold;background-position: 0 -2px;transition: background-color 0.1s ease-out, color 0.1s ease-out;}
+.sprocket-tabs-nav li:hover {background-position: 0 -63px;}
+.sprocket-tabs-nav > li > .sprocket-tabs-inner {display: block;font-size: 1.1em;border-radius: 4px;}
+.sprocket-tabs-nav > .active > a {cursor: default;}
+.sprocket-tabs-nav li .sprocket-tabs-inner {cursor: pointer;display: block;padding: 12px;line-height: 1em;}
+.sprocket-tabs-nav .dropdown-menu {margin-top: 1px;border-width: 1px;}
+.sprocket-tabs-nav .sprocket-tabs-icon {float: left;margin-right: 5px;}
+.sprocket-tabs-nav-container {padding: 0 15px;}
+
+/* Tabs Nav - Layout Bottom */
+.layout-bottom .sprocket-tabs-nav {border-bottom: 0;padding: 0 5px 5px 5px;}
+.layout-bottom .sprocket-tabs-nav > li {margin-top: -1px;margin-bottom: 0;}
+.layout-bottom .sprocket-tabs-nav > li > .sprocket-tabs-inner {border-radius: 0 0 4px 4px;}
+
+/* Tabs Nav - Layout Left / Right  */
+.layout-left .sprocket-tabs-nav, .layout-right .sprocket-tabs-nav {border-bottom: 0;}
+.layout-left .sprocket-tabs-nav {float: left;margin-right: 20px;padding: 5px 0 5px 5px;}
+.layout-right .sprocket-tabs-nav {float: right;margin-left: 20px;padding: 5px 5px 5px 0;}
+.layout-left .sprocket-tabs-nav > li, .layout-right .sprocket-tabs-nav > li {float: none;}
+.layout-left .sprocket-tabs-nav > li > .sprocket-tabs-inner, .layout-right .sprocket-tabs-nav > li > .sprocket-tabs-inner {min-width: 70px;margin-right: 0;margin-bottom: 0;}
+.layout-left .sprocket-tabs-nav > li > .sprocket-tabs-inner {margin-right: -1px;border-radius: 4px 0 0 4px;}
+.layout-right .sprocket-tabs-nav > li > .sprocket-tabs-inner {margin-left: -1px;border-radius: 0 4px 4px 0;}
+
+/* Tabs Content */
+.sprocket-tabs-panels > .sprocket-tabs-panel {position: absolute;opacity: 0;height: 0;width: 0;visibility: hidden;}
+.sprocket-tabs-panels > .sprocket-tabs-panel.active {position: static;opacity: 1;height: auto;width: 100%;visibility: visible;}
+.layout-top.animation-slideandfade .sprocket-tabs-panel, .layout-bottom.animation-slideandfade .sprocket-tabs-panel {margin-left: 200px;}
+.layout-top.animation-slideandfade .sprocket-tabs-panel.active, .layout-bottom.animation-slideandfade .sprocket-tabs-panel.active {margin-left: 0;}
+.layout-left.animation-slideandfade .sprocket-tabs-panel, .layout-right.animation-slideandfade .sprocket-tabs-panel {margin-top: -200px;}
+.layout-left.animation-slideandfade .sprocket-tabs-panel.active, .layout-right.animation-slideandfade .sprocket-tabs-panel.active {margin-top: 0;}
+
+/* Transitions */
+.sprocket-tabs-nav li .sprocket-tabs-inner {-webkit-transition: background 0.1s ease-in;-moz-transition: background 0.1s ease-in;-o-transition: background 0.1s ease-in;-ms-transition: background 0.1s ease-in;transition: background 0.1s ease-in;}
+.animation-slideandfade .sprocket-tabs-panel.active {-webkit-transition: margin 0.3s ease-out, opacity 0.4s ease-in;-moz-transition: margin 0.3s ease-out, opacity 0.4s ease-in;-o-transition: margin 0.3s ease-out, opacity 0.4s ease-in;-ms-transition: margin 0.3s ease-out, opacity 0.4s ease-in;transition: margin 0.3s ease-out, opacity 0.4s ease-in;}
+.animation-fade .sprocket-tabs-panel.active {-webkit-transition: opacity 0.4s ease-in;-moz-transition: opacity 0.4s ease-in;-o-transition: opacity 0.4s ease-in;-ms-transition: opacity 0.4s ease-in;transition: opacity 0.4s ease-in;}
+
+/* RTL */
+.rtl .sprocket-tabs-nav li {float:right;}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+		<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+			<channel>
+		
+<title>Yahoo! Weather - Avila Beach, CA</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Avila_Beach__CA/*http://weather.yahoo.com/forecast/USCA0058_f.html</link>
+<description>Yahoo! Weather for Avila Beach, CA</description>
+<language>en-us</language>
+<lastBuildDate>Tue, 03 Sep 2013 5:56 pm PDT</lastBuildDate>
+<ttl>60</ttl>
+<location city="Avila Beach" region="CA"   country="United States"/>
+<units temperature="F" distance="mi" pressure="in" speed="mph"/>
+<wind chill="72"   direction="320"   speed="17" />
+<atmosphere humidity="48"  visibility="10"  pressure="29.9"  rising="0" />
+<astronomy sunrise="6:35 am"   sunset="7:25 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+</image>
+<item>
+<title>Conditions for Avila Beach, CA at 5:56 pm PDT</title>
+<lat>35.18</lat>
+<long>-120.73</long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Avila_Beach__CA/*http://weather.yahoo.com/forecast/USCA0058_f.html</link>
+<pubDate>Tue, 03 Sep 2013 5:56 pm PDT</pubDate>
+<condition  text="Fair"  code="34"  temp="72"  date="Tue, 03 Sep 2013 5:56 pm PDT" />
+<description><![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/34.gif"/><br />
+<b>Current Conditions:</b><br />
+Fair, 72 F<BR />
+<BR /><b>Forecast:</b><BR />
+Tue - Clear. High: 75 Low: 58<br />
+Wed - Sunny. High: 74 Low: 58<br />
+Thu - Sunny. High: 76 Low: 58<br />
+Fri - Partly Cloudy. High: 76 Low: 56<br />
+Sat - Partly Cloudy. High: 74 Low: 54<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Avila_Beach__CA/*http://weather.yahoo.com/forecast/USCA0058_f.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+]]></description>
+<forecast day="Tue" date="3 Sep 2013" low="58" high="75" text="Clear" code="31" />
+<forecast day="Wed" date="4 Sep 2013" low="58" high="74" text="Sunny" code="32" />
+<forecast day="Thu" date="5 Sep 2013" low="58" high="76" text="Sunny" code="32" />
+<forecast day="Fri" date="6 Sep 2013" low="56" high="76" text="Partly Cloudy" code="30" />
+<forecast day="Sat" date="7 Sep 2013" low="54" high="74" text="Partly Cloudy" code="30" />
+<guid isPermaLink="false">USCA0058_2013_09_07_7_00_PDT</guid>
+</item>
+</channel>
+</rss>
+
+<!-- api28.weather.gq1.yahoo.com Wed Sep  4 01:22:38 PST 2013 -->

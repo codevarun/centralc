@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade" client="site">
+	<name>Ohanah List of Events</name>
+	<author>Beyounic SA</author>
+	<creationDate>February 2011</creationDate>
+	<copyright>Copyright (C) 2012 Beyounic SA. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@beyounic.com</authorEmail>
+	<authorUrl>app.ohanah.com</authorUrl>
+	<version>2.0.20</version>
+	<description></description>
+	<files>
+		<filename module="mod_ohanahevents">mod_ohanahevents.php</filename>
+		<filename>html.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<params>
+		<param name="showOnlyACategory" type="list" default="0" label="Show a single category" description="Set to yes if you want to display events from a single category">
+	    	<option value="1">Yes</option>
+	        <option value="0">No</option>
+       	</param>
+		<param type="sql" name="showOnlyCategoryId" label="Category:" description="Category to display" query="SELECT ohanah_category_id as value, title as showOnlyCategoryId FROM #__ohanah_categories" />
+		
+		<param type="list" name="list_type" label="List type:" description="Events to display" default="notpast">
+			<option value="notpast">Upcoming events</option>
+			<option value="past">Past events</option>
+			<option value="all">All events</option>
+		</param>
+		
+		<param type="list" name="direction" label="Events ordering" description="" default="asc">
+			<option value="asc">Ascending</option>
+			<option value="desc">Descending</option>
+		</param>
+
+		<param name="showOnlyFeatured" type="list" default="0" label="Show only featured events" description="">
+			<option value="1">Yes</option>
+		    <option value="0">No</option>
+		</param>
+		
+		<param type="list" name="list_max_number" label="Max:" description="Max number of events to display" default="5">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+					<option value="10">10</option>
+			<option value="10">10</option>
+			<option value="10000">No limit</option>
+		</param>
+		<param type="list" name="displayStyle" label="Style of the list:" description="Style of the list" default="normal">
+			<option value="normal">Standard Ohanah event list</option>
+			<option value="ul_list">HTML UL list</option>
+		</param>
+       	
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+	    	<option value="1">Use global</option>
+	        <option value="0">No caching</option>
+       	</param>
+       	
+       	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="showOnlyACategory" type="list" default="0" label="Show a single category" description="Set to yes if you want to display events from a single category">
+			    	<option value="1">Yes</option>
+			        <option value="0">No</option>
+		       	</field>
+				<field type="sql" name="showOnlyCategoryId" label="Category:" description="Category to display" query="SELECT ohanah_category_id as value, title as showOnlyCategoryId FROM #__ohanah_categories" />
+				
+				<field
+					name="list_type"
+					type="list"
+					default="notpast"
+					label="List type:"
+					description="Events to display">
+					<option value="past">Past events</option>
+					<option value="notpast">Upcoming events</option>
+					<option value="all">All events</option>
+				</field>
+
+				<field type="list" name="direction" label="Events ordering" description="" default="asc">
+					<option value="asc">Ascending</option>
+					<option value="desc">Descending</option>
+				</field>
+				
+				<field name="showOnlyFeatured" type="list" default="0" label="Show only featured events" description="">
+					<option value="1">Yes</option>
+				    <option value="0">No</option>
+				</field>
+				
+				<field
+					name="list_max_number"
+					type="list"
+					default="5"
+					label="Max:"
+					description="Max number of events to display">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="10000">No limit</option>
+				</field>
+				
+				<field
+					name="displayStyle"
+					type="list"
+					default="normal"
+					label="Style of the list:"
+					description="Style of the list">
+					<option value="normal">Standard Ohanah event list</option>
+					<option value="ul_list">HTML UL list</option>
+				</field>
+												
+			</fieldset>
+
+			<fieldset
+				name="advanced">
+
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static">
+					<option
+						value="static"></option>
+				</field>
+
+			</fieldset>
+		</fields>
+	</config>
+
+</install>

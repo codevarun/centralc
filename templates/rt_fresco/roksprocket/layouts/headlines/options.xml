@@ -1,0 +1,7 @@
+<config>
+	<fields name="params">
+		<fieldset name="roksprocket" overwrite="false">
+			<field name="backgroundimage" type="imagepicker" optionorder="57" label="ROKSPROCKET_CUSTOM_HEADER_IMAGE" description="ROKSPROCKET_CUSTOM_HEADER_IMAGE_DESC" article-defaults="true" />
+		</fieldset>
+	</fields>
+</config>

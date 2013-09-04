@@ -1,0 +1,17 @@
+/**
+* @version   $Id: template-gecko.css 837 2012-05-26 05:39:12Z kevin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+ 
+/* Structure */
+body {text-rendering: optimizeSpeed;}
+
+/* Transitions */
+a {-moz-transition: color 0.1s ease-in;}
+.menutop a {-moz-transition: none;}
+.horizmenu ul.menu li a, .horizmenu ul.menu li .item, .horizmenu ul.menu li .separator {-moz-transition: background-color 0.1s ease-out;}
+.sprocket-tabs-nav li {-moz-transition: background-color 0.1s ease-out, color 0.1s ease-out;}
+#rt-transition.rt-hidden {opacity: 0;}
+#rt-transition.rt-visible {opacity: 1;-moz-transition: opacity 0.4s ease-in;}

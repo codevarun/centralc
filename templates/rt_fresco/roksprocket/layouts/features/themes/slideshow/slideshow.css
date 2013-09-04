@@ -1,0 +1,36 @@
+/**
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+/* Features - Layout Slideshow - Core */
+.layout-slideshow {position: relative;}
+.layout-slideshow:after {display: table;content: "";*zoom: 1;clear: both;}
+.layout-slideshow ul {list-style: none !important;margin: 0;padding: 0;}
+
+/* Features - Layout Slideshow - Content */
+.layout-slideshow .sprocket-features-img-list {position: relative;overflow: hidden;}
+.layout-slideshow .sprocket-features-img-container {position: absolute;top: 0;}
+.layout-slideshow .sprocket-features-content {position: absolute;top: 40px;left: 40px;width: 50%;border-radius: 4px;box-shadow: 0 1px 3px rgba(0,0,0,0.3);}
+.layout-slideshow .sprocket-features-title {font-size: 2em;line-height: 1.3em;margin: 0 0 15px 0;padding: 10px;display: inline-block;}
+.layout-slideshow .sprocket-features-desc {font-size: 1.1em;line-height: 1.3em;margin: 0;padding: 10px;display: inline-block;}
+
+/* Features - Layout Slideshow - Enable First Item */
+.layout-slideshow .sprocket-features-index-1 .sprocket-features-img-container {position: relative;}
+.layout-slideshow .sprocket-features-index-1 .sprocket-features-img-container, .layout-slideshow .sprocket-features-index-1 .sprocket-features-content {z-index: 2;}
+
+/* Features - Layout Slideshow - Navigation */
+.layout-slideshow .sprocket-features-arrows .arrow {position: absolute;display: block;width: 24px;height: 24px;top: 50%;margin-top: -12px;border-radius: 3px;cursor: pointer;z-index: 10;text-align: center;font-size: 2.2em;background-position: 0 -5px;}
+.layout-slideshow .sprocket-features-arrows .prev {left: 10px;}
+.layout-slideshow .sprocket-features-arrows .next {right: 10px;}
+.layout-slideshow .sprocket-features-arrows .arrow:hover {background-position: 0 -115px;box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);}
+.sprocket-features.arrows-onhover:hover .sprocket-features-arrows .arrow {opacity: 1;}
+.layout-slideshow .sprocket-features-pagination {position: absolute;left: 50px;bottom: 0;z-index: 10;}
+.layout-slideshow .sprocket-features-pagination li {display: inline-block;padding: 6px;border-radius: 1em;cursor: pointer;box-shadow: 0 1px 3px rgba(0,0,0,0.5) inset;position: relative;}
+.layout-slideshow .sprocket-features-pagination li span {display: none;font-size: 0.85em;line-height: 1em;}
+.layout-slideshow .sprocket-features-pagination .active {box-shadow: 0 1px 3px rgba(0,0,0,0.3);}
+.layout-slideshow .sprocket-features-pagination li:after {content: "";border-radius: 1em;position: absolute;top: 0;right: 0;left: 0;bottom: 0;}
+.layout-slideshow .sprocket-features-pagination-hidden {display: none;}
+
+/* Features - Layout Slideshow - Transitions */
+.layout-slideshow .sprocket-features-pagination li, .layout-slideshow .sprocket-features-arrows .arrow {-webkit-transition: opacity 0.2s ease-in;-moz-transition: opacity 0.2s ease-in;-o-transition: opacity 0.2s ease-in;-ms-transition: opacity 0.2s ease-in;transition: opacity 0.2s ease-in;}

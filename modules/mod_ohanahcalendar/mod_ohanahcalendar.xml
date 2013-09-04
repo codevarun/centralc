@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade" client="site">
+	<name>Ohanah Calendar</name>
+	<author>Beyounic SA</author>
+	<creationDate>July 2011</creationDate>
+	<copyright>Copyright (C) 2012 Beyounic SA. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@beyounic.com</authorEmail>
+	<authorUrl>app.ohanah.com</authorUrl>
+	<version>2.0.20</version>
+	<description></description>
+	<files>
+		<filename module="mod_ohanahcalendar">mod_ohanahcalendar.php</filename>
+		<filename>html.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<params>
+	
+		<param name="allevents" type="list" default="1" label="Show" description="Select whether to show all event or just events from single category">
+			<option value="1">All events</option>
+	    	<option value="0">Single Category</option>
+		</param>
+		
+		<param name="eventcatid" type="text" default="" size="45" label="Category ID" description="Type the id of the selected category you want to display (category mode must be enable in the Show settings)" />
+	
+		<param name="width" type="text" default="" size="45" label="Width" description="Width of the calendar, in pixels" />
+
+		<param name="month" type="text" default="" size="45" label="Month" description="Type the number of a month (1, 2, 12) if you want to show a specific month" />
+		<param name="year" type="text" default="" size="45" label="Year" description="Type a year (2011, 2012) if you want to show a specific year" />
+		<param name="activecalbgcolor" type="text" default="" size="45" label="Highlighted Day BG Color" description="Enter the color to be used for the highlighted days in the calander - use css known color like red, green,... or hexa like #000000 - If empty green will be used as default" />
+		<param name="activecaltextcolor" type="text" default="" size="45" label="Highlighted Day Text Color" description="Enter the color to be used for the highlighted days in the calander - use css known color like red, green,... or hexa like #000000 - If empty black will be used as default" />
+		
+		<param name="prevnext" type="list" default="1" label="Prev-Next Month" description="Select whether to show or hide the previous/next month navigation">
+			<option value="1">Show</option>
+		    <option value="0">Hide</option>
+		</param>
+		<param type="list" name="firstDay" label="First day of week:" description="" default="1">
+			<option value="0">Sunday</option>
+			<option value="1">Monday</option>
+			<option value="6">Saturday</option>
+		</param>
+		<param name="showheader" type="list" default="1" label="Calendar header" description="Select whether to show or hide the calendar header">
+			<option value="1">Show</option>
+		    <option value="0">Hide</option>
+		</param>
+		
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+	    	<option value="1">Use global</option>
+	        <option value="0">No caching</option>
+       	</param>		
+
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+				<field name="allevents" type="list" default="1" label="Show" description="Select whether to show all event or just events from single category">
+					<option value="1">All events</option>
+			    	<option value="0">Single Category</option>
+				</field>
+	
+				<field name="eventcatid" type="text" default="" size="45" label="Category ID" description="Type the id of the selected category you want to display (category mode must be enable in the Show settings)" />
+		
+				<field name="width" type="text" default="" size="45" label="Width" description="Width of the calendar, in pixels" />
+
+				<field name="month" type="text" default="" size="45" label="Month" description="Type the number of a month (1, 2, 12) if you want to show a specific month" />
+				<field name="year" type="text" default="" size="45" label="Year" description="Type a year (2011, 2012) if you want to show a specific year" />
+				<field name="activecalbgcolor" type="text" default="" size="45" label="Highlighted Day BG Color" description="Enter the color to be used for the highlighted days in the calander - use css known color like red, green,... or hexa like #000000 - If empty green will be used as default" />
+				<field name="activecaltextcolor" type="text" default="" size="45" label="Highlighted Day Text Color" description="Enter the color to be used for the highlighted days in the calander - use css known color like red, green,... or hexa like #000000 - If empty black will be used as default" />
+	
+				<field name="prevnext" type="list" default="1" label="Prev-Next Month" description="Select whether to show or hide the previous/next month navigation">
+					<option value="1">Show</option>
+				    <option value="0">Hide</option>
+				</field>
+				<field type="list" name="firstDay" label="First day of week:" description="" default="1">
+					<option value="0">Sunday</option>
+					<option value="1">Monday</option>
+					<option value="6">Saturday</option>
+				</field>
+				<field name="showheader" type="list" default="1" label="Calendar header" description="Select whether to show or hide the calendar header">
+					<option value="1">Show</option>
+				    <option value="0">Hide</option>
+				</field>
+								
+			</fieldset>
+
+			<fieldset
+				name="advanced">
+
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static">
+					<option
+						value="static"></option>
+				</field>
+
+			</fieldset>
+		</fields>
+	</config>
+
+</install>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://www.joomla.org/xml/dtd/1.5/component-install.dtd">
+<install type="component" version="1.5.0" method="upgrade" mootools="1.2">
+	<name>Ohanah</name>
+	<author>Beyounic SA</author>
+    <creationDate>2012-07-24</creationDate>
+	<copyright>(C) 2012 Beyounic SA. All rights reserved.</copyright>
+	<license>GNU GPLv3</license>
+	<csslicense>CC-BY</csslicense>
+	<jslicense>MIT</jslicense>
+	<authoremail>info@beyounic.com</authoremail>
+    <authorurl>app.ohanah.com</authorurl>
+    <support href="http://app.ohanah.com/support">Support Tickets</support>
+    <rate href="http://extensions.joomla.org/extensions/calendars-a-events/events/events-management/16935">Joomla Extensions Directory (JED)</rate>
+    <updateUrl>http://extensions.joomla.org/extensions/calendars-a-events/events/events-management/16935</updateUrl>
+    <!-- 
+    	Color cheat sheat
+    		- Alpha		darkorange
+    		- Beta		red
+    		- RC		blue
+    		- Stable	#009199
+    -->
+	<version status="Stable" color="darkorange">2.1.1</version>
+	<revision></revision>
+	<description></description>
+
+	<!-- Credits -->
+	<credits>
+		<a href="http://www.nooku.org/en/framework.html">Ohanah is powered by the Nooku Framework</a>
+	</credits>
+	
+	<files folder="site/components/com_ohanah">
+		<file>ohanah.php</file>
+		<file>dispatcher.php</file>
+		<file>router.php</file>
+		
+		<folder>controllers</folder>
+		<folder>databases</folder>
+		<folder>models</folder>
+		<folder>templates</folder>
+		<folder>views</folder>
+	</files>
+
+	<administration>
+		<menu view="dashboard" img="../media/com_ohanah/images/ohanah_icon_16x16.png">Ohanah</menu>
+		<submenu>
+            <menu view="events" img="../media/com_ohanah/images/ohanah_icon_16x16_events.png">Events</menu>
+            <menu view="categories" img="../media/com_ohanah/images/ohanah_icon_16x16_category.png">Categories</menu>
+            <menu view="venues" img="../media/com_ohanah/images/ohanah_icon_16x16_venues.png">Venues</menu>
+            <menu view="config" img="../media/com_ohanah/images/ohanah_icon_16x16_settings.png">Settings</menu>
+            <menu view="help" img="../media/com_ohanah/images/ohanah_icon_16x16_help.png">Help</menu>
+        </submenu>
+		
+		<files folder="administrator/components/com_ohanah">
+
+			<file>ohanah.php</file>
+			<file>config.xml</file>
+
+			<folder>controllers</folder>
+			<folder>databases</folder>
+			<folder>filters</folder>
+			<folder>install</folder>
+			<folder>models</folder>
+			<folder>templates</folder>
+			<folder>views</folder>
+
+		</files>
+			
+		<languages folder="administrator/language">
+	 		<language tag="af-ZA">af-ZA/af-ZA.com_ohanah.ini</language>
+			<language tag="af-ZA">af-ZA/af-ZA.com_ohanah.sys.ini</language>
+	 		<language tag="ar-AA">ar-AA/ar-AA.com_ohanah.ini</language>
+			<language tag="ar-AA">ar-AA/ar-AA.com_ohanah.sys.ini</language>
+			<language tag="bg-BG">bg-BG/bg-BG.com_ohanah.ini</language>
+			<language tag="bg-BG">bg-BG/bg-BG.com_ohanah.sys.ini</language>
+			<language tag="bs-BA">bs-BA/bs-BA.com_ohanah.ini</language>
+			<language tag="bs-BA">bs-BA/bs-BA.com_ohanah.sys.ini</language>
+			<language tag="ca-ES">ca-ES/ca-ES.com_ohanah.ini</language>
+			<language tag="ca-ES">ca-ES/ca-ES.com_ohanah.sys.ini</language>
+			<language tag="cs-CZ">cs-CZ/cs-CZ.com_ohanah.ini</language>
+			<language tag="cs-CZ">cs-CZ/cs-CZ.com_ohanah.sys.ini</language>
+			<language tag="da-DK">da-DK/da-DK.com_ohanah.ini</language>
+			<language tag="da-DK">da-DK/da-DK.com_ohanah.sys.ini</language>>
+			<language tag="de-DE">de-DE/de-DE.com_ohanah.ini</language>
+			<language tag="de-DE">de-DE/de-DE.com_ohanah.sys.ini</language>
+ 			<language tag="el-GR">el-GR/el-GR.com_ohanah.ini</language>
+			<language tag="el-GR">el-GR/el-GR.com_ohanah.sys.ini</language>
+ 			<language tag="en-GB">en-GB/en-GB.com_ohanah.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_ohanah.sys.ini</language>
+	 		<language tag="es-ES">es-ES/es-ES.com_ohanah.ini</language>
+			<language tag="es-ES">es-ES/es-ES.com_ohanah.sys.ini</language>
+			<language tag="et-EE">et-EE/et-EE.com_ohanah.ini</language>
+ 			<language tag="et-EE">et-EE/et-EE.com_ohanah.sys.ini</language>
+			<language tag="fa-IR">fa-IR/fa-IR.com_ohanah.ini</language>
+			<language tag="fa-IR">fa-IR/fa-IR.com_ohanah.sys.ini</language>
+			<language tag="fi-FI">fi-FI/fi-FI.com_ohanah.ini</language>
+			<language tag="fi-FI">fi-FI/fi-FI.com_ohanah.sys.ini</language>
+			<language tag="fr-FR">fr-FR/fr-FR.com_ohanah.ini</language>
+			<language tag="fr-FR">fr-FR/fr-FR.com_ohanah.sys.ini</language>
+			<language tag="he-IL">he-IL/he-IL.com_ohanah.ini</language>
+			<language tag="he-IL">he-IL/he-IL.com_ohanah.sys.ini</language>
+			<language tag="hr-HR">hr-HR/hr-HR.com_ohanah.ini</language>
+			<language tag="hr-HR">hr-HR/hr-HR.com_ohanah.sys.ini</language>
+			<language tag="hu-HU">hu-HU/hu-HU.com_ohanah.ini</language>
+			<language tag="hu-HU">hu-HU/hu-HU.com_ohanah.sys.ini</language>
+			<language tag="it-IT">it-IT/it-IT.com_ohanah.ini</language>			
+			<language tag="it-IT">it-IT/it-IT.com_ohanah.sys.ini</language>			
+			<language tag="lv-LV">lv-LV/lv-LV.com_ohanah.ini</language>			
+			<language tag="lv-LV">lv-LV/lv-LV.com_ohanah.sys.ini</language>			
+			<language tag="mk-MK">mk-MK/mk-MK.com_ohanah.ini</language>
+			<language tag="mk-MK">mk-MK/mk-MK.com_ohanah.sys.ini</language>
+			<language tag="nb-NO">nb-NO/nb-NO.com_ohanah.ini</language>
+			<language tag="nb-NO">nb-NO/nb-NO.com_ohanah.sys.ini</language>	
+			<language tag="nl-NL">nl-NL/nl-NL.com_ohanah.ini</language>			
+			<language tag="nl-NL">nl-NL/nl-NL.com_ohanah.sys.ini</language>			
+			<language tag="pl-PL">pl-PL/pl-PL.com_ohanah.ini</language>
+			<language tag="pl-PL">pl-PL/pl-PL.com_ohanah.sys.ini</language>
+			<language tag="pt-BR">pt-BR/pt-BR.com_ohanah.ini</language>
+			<language tag="pt-BR">pt-BR/pt-BR.com_ohanah.sys.ini</language>
+			<language tag="pt-PT">pt-PT/pt-PT.com_ohanah.ini</language>
+			<language tag="pt-PT">pt-PT/pt-PT.com_ohanah.sys.ini</language>
+			<language tag="ro-RO">ro-RO/ro-RO.com_ohanah.ini</language>
+			<language tag="ro-RO">ro-RO/ro-RO.com_ohanah.sys.ini</language>
+			<language tag="ru-RU">ru-RU/ru-RU.com_ohanah.ini</language>
+			<language tag="ru-RU">ru-RU/ru-RU.com_ohanah.sys.ini</language>
+			<language tag="sl-SI">sl-SI/sl-SI.com_ohanah.ini</language>
+			<language tag="sl-SI">sl-SI/sl-SI.com_ohanah.sys.ini</language>
+			<language tag="sv-SE">sv-SE/sv-SE.com_ohanah.ini</language>
+			<language tag="sv-SE">sv-SE/sv-SE.com_ohanah.sys.ini</language>
+			<language tag="tr-TR">tr-TR/tr-TR.com_ohanah.ini</language>
+			<language tag="tr-TR">tr-TR/tr-TR.com_ohanah.sys.ini</language>
+			<language tag="uk-UA">uk-UA/uk-UA.com_ohanah.ini</language>
+			<language tag="uk-UA">uk-UA/uk-UA.com_ohanah.sys.ini</language>
+			<language tag="zh-TW">zh-TW/zh-TW.com_ohanah.ini</language>
+			<language tag="zh-TW">zh-TW/zh-TW.com_ohanah.sys.ini</language>
+ 		</languages>
+	</administration>
+	
+	<languages folder="language">
+	 	<language tag="af-ZA">af-ZA/af-ZA.com_ohanah.ini</language>
+		<language tag="ar-AA">ar-AA/ar-AA.com_ohanah.ini</language>
+		<language tag="bs-BA">bs-BA/bs-BA.com_ohanah.ini</language>
+		<language tag="bg-BG">bg-BG/bg-BG.com_ohanah.ini</language>
+		<language tag="ca-ES">ca-ES/ca-ES.com_ohanah.ini</language>
+		<language tag="cs-CZ">cs-CZ/cs-CZ.com_ohanah.ini</language>
+		<language tag="da-DK">da-DK/da-DK.com_ohanah.ini</language>
+		<language tag="de-DE">de-DE/de-DE.com_ohanah.ini</language>
+ 		<language tag="el-GR">el-GR/el-GR.com_ohanah.ini</language>
+ 		<language tag="en-GB">en-GB/en-GB.com_ohanah.ini</language>
+ 		<language tag="es-ES">es-ES/es-ES.com_ohanah.ini</language>
+ 		<language tag="et-EE">et-EE/et-EE.com_ohanah.ini</language>
+		<language tag="fa-IR">fa-IR/fa-IR.com_ohanah.ini</language>
+		<language tag="fi-FI">fi-FI/fi-FI.com_ohanah.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.com_ohanah.ini</language>
+		<language tag="he-IL">he-IL/he-IL.com_ohanah.ini</language>
+		<language tag="hr-HR">hr-HR/hr-HR.com_ohanah.ini</language>
+		<language tag="hu-HU">hu-HU/hu-HU.com_ohanah.ini</language>
+		<language tag="it-IT">it-IT/it-IT.com_ohanah.ini</language>			
+		<language tag="lv-LV">lv-LV/lv-LV.com_ohanah.ini</language>			
+		<language tag="mk-MK">mk-MK/mk-MK.com_ohanah.ini</language>
+		<language tag="nb-NO">nb-NO/nb-NO.com_ohanah.ini</language>
+		<language tag="nl-NL">nl-NL/nl-NL.com_ohanah.ini</language>			
+		<language tag="pl-PL">pl-PL/pl-PL.com_ohanah.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.com_ohanah.ini</language>
+		<language tag="pt-PT">pt-PT/pt-PT.com_ohanah.ini</language>
+		<language tag="ro-RO">ro-RO/ro-RO.com_ohanah.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.com_ohanah.ini</language>
+		<language tag="sl-SL">sl-SI/sl-SI.com_ohanah.ini</language>
+		<language tag="sv-SE">sv-SE/sv-SE.com_ohanah.ini</language>
+		<language tag="tr-TR">tr-TR/tr-TR.com_ohanah.ini</language>
+		<language tag="uk-UA">uk-UA/uk-UA.com_ohanah.ini</language>
+		<language tag="zh-TW">zh-TW/zh-TW.com_ohanah.ini</language>
+ 	</languages>
+
+	<media folder="media/com_ohanah" destination="com_ohanah">
+		<folder>attachments</folder>
+		<folder>attachments_thumbs</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>jquery-lightbox-0.5</folder>
+		<folder>js</folder>
+		<folder>v2</folder>
+	</media>
+
+	<modules>
+		<module module="mod_ohanahattendees" />
+		<module module="mod_ohanahcalendar" />    	
+		<module module="mod_ohanahcategorieslist" />
+		<module module="mod_ohanahcategoryimages" />
+		<module module="mod_ohanahcategoryinfo" />
+		<module module="mod_ohanaheventimages" />
+		<module module="mod_ohanaheventmap" />
+    	<module module="mod_ohanahevents" />
+		<module module="mod_ohanaheventsmap" />
+		<module module="mod_ohanahrelatedinfo" />
+		<module module="mod_ohanahsearch" />
+		<module module="mod_ohanahsingle" />
+    	<module module="mod_ohanahvenueimages" />
+    	<module module="mod_ohanahvenueinfo" />
+    	<module module="mod_ohanahvenuemap" />
+    	<module module="mod_ohanahvenueslist" />   	
+  	</modules>
+
+	<framework>
+		<folder src="/site/components/com_default">/components/com_default</folder>
+		<folder src="/site/modules/mod_default">/modules/mod_default</folder>
+		<folder>/administrator/components/com_default</folder>
+		<folder>/administrator/modules/mod_default</folder>
+		<folder>/libraries/koowa</folder>
+		<folder>/media/lib_koowa</folder>
+		<folder>/media/com_default</folder>
+		<folder>/plugins/koowa</folder>
+		<folder src="/plugins/system">/plugins/system/koowa</folder>
+
+		<file>/plugins/koowa/default.php</file>
+		<file src="/plugins/system/koowa.php">/plugins/system/koowa.php</file>
+		<file src="/plugins/system/koowa.xml">/plugins/system/koowa.xml</file>
+		<file>/plugins/system/koowa.php</file>
+		<file>/plugins/system/koowa.xml</file>
+
+	</framework>
+
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install/install.sql</file>
+		</sql>
+	</install>
+	
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">install/uninstall.sql</file>
+		</sql>
+	</uninstall>
+	
+	<installfile>install/install.php</installfile>
+	<uninstallfile>install/uninstall.php</uninstallfile>
+	
+	<!-- For j1.6 -->
+	<scriptfile>install/install.php</scriptfile>
+	
+	<!-- 
+		Long list over deprecated files and folders as time went by
+		If they exist on the current install, they'll be deleted in order to keep things clean.
+	-->
+	
+	<deleted>
+		<!--
+		<admin>
+			<folder revision="1201">placeholder/placeholder</folder>
+			<file revision="1201">placeholder/placeholder.php</file>
+		</admin>-->
+		<site>
+			<folder revision="2.0.5">views/categories</folder>
+			<folder revision="2.0.5">views/category</folder>
+			<folder revision="2.0.5">views/venues</folder>
+		</site>
+		<!--
+		<media>
+			<file revision="1408">placeholder/placeholder/placeholder.png</file>
+			<folder revision="764">placeholder</folder>
+		</media>-->
+	</deleted>
+</install>

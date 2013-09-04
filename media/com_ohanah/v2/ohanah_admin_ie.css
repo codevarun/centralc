@@ -1,0 +1,16 @@
+.panelContent select.size1, .panelContent select.size2, .panelContent select.size3, .panelContent select.size4{
+	padding:7px 5px 7px 8px; 
+}
+
+.panelContent input.text{
+	padding-top:10px;
+	padding-bottom:4px;
+}
+
+#submenu li{
+	padding:9px 0 !important;
+}
+
+input[type=checkbox], input[type=radio] {
+	border:none !important;
+}

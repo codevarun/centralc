@@ -1,0 +1,100 @@
+.cleditorMain {
+	border:0px solid #CBCDCF; 
+	padding:0 0px 0px; 
+	background: none;
+	margin-top: -5px;
+	margin-bottom: 25px;
+	}
+.cleditorMain iframe {
+	border:1px solid #CBCDCF; 
+	margin:0; 
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
+	background: url(../ohanah_images/input_bg_inset.png) top center repeat-x;
+	border-radius:2px;
+	border-top: 1px solid #9DA2AD !important;
+	
+	}
+.cleditorMain textarea {
+	border:1px solid #CBCDCF; 
+	margin:0; 
+	padding:0:
+	background: url(../ohanah_images/input_bg_inset.png) top center repeat-x;
+	border-radius:2px;
+	border-top: 1px solid #9DA2AD !important;
+	resize:none;
+	padding-bottom: 0px;
+	padding-top: 12px;
+	padding-left: 19px;
+	padding-right: 11px;
+ /* webkit grip focus */}
+.cleditorToolbar {}
+.cleditorGroup {float:left; height:26px}
+.cleditorButton {float:left; width:24px; height:24px; margin:1px 0 1px 0; background: url('images/buttons.gif'); margin-right: px;
+}
+.cleditorButton:last-of-type {margin-left: 3px;
+}
+.cleditorDisabled {opacity:0.3; filter:alpha(opacity=30)}
+.cleditorDivider {
+	float:left; 
+	width:1px; 
+	height:23px; 
+	margin:1px 0 1px 0; 
+	background:#CCC;
+	}
+.cleditorPopup {
+	border:solid 1px #CBCDCF; 
+	background-color:red; 
+	position:absolute; 
+	border-radius: 2px;
+	font:10pt Arial,Verdana; 
+	margin-top: 10px;
+	cursor:default; 
+	z-index:10000;}
+.cleditorList div {padding:2px 4px 2px 4px}
+.cleditorList p,
+.cleditorList h1,
+.cleditorList h2,
+.cleditorList h3,
+.cleditorList h4,
+.cleditorList h5,
+.cleditorList h6,
+.cleditorList font {padding:0; margin:0; background-color:Transparent}
+.cleditorColor {width:150px; padding:1px 0 0 1px}
+.cleditorColor div {float:left; width:14px; height:14px; margin:0 1px 1px 0}
+.cleditorPrompt {
+	background-color:#FBFBFB; 
+	padding:4px; 
+	font-size:8.5pt;
+	color: #455868;
+	margin-top: 10px;
+	}
+	
+.cleditorPrompt input[type=text]
+{
+	text-align:left;
+	font-size: 13px;
+	padding: 4px;
+	height:25px;
+	border:1px solid #cbcdcf !important;
+	background:url("../ohanah_images/input_bg_inset.png") repeat-x scroll center top #fff;
+	border-radius: 2px;
+}
+.cleditorPrompt input[type=button]
+{
+	font-size: 11px !important;
+	padding: 4px;
+	height:25px;
+	border:0px solid #cbcdcf !important;
+	background:url("../ohanah_images/toolbarIcon_bg.png") repeat-x scroll left top transparent !important;
+	border-radius: 2px;
+	color: #FFFFFF;
+	margin-top: 5px;
+	
+}
+
+.cleditorPrompt input,
+.cleditorPrompt textarea {font:8.5pt Arial,Verdana;}
+.cleditorMsg {background-color:#FBFBFB; width:150px; padding:4px; font-size:8.5pt; color: #455868;
+}

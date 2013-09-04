@@ -1,0 +1,10 @@
+/administrator/components/com_akeeba/backup/
+/administrator/cache/
+/cache/
+/configuration.php
+/.htaccess
+/htaccess.txt
+/images/
+/logs/
+/tmp/
+.DS_Store

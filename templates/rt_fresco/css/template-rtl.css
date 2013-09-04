@@ -1,0 +1,49 @@
+/**
+* @version   $Id: template-rtl.css 1033 2012-06-01 01:04:22Z josh $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Core */
+body.rtl .item-page ul,body.rtl .item-page ol, body.rtl .module-content ul,body.rtl .module-content ol {padding-right: 15px;}
+
+/* Logo */
+body.rtl #logo-inner {right: 75px;left: inherit;}
+body.rtl #logo-icon {right: -9px;left: inherit;}
+body.rtl.logo-icon-0 #logo-inner {right: -10px;}
+body.rtl.logo-icon-1 #rt-navigation .rt-block {margin: 0 114px 0 0;}
+
+/* Navigation */
+body.rtl .menutop li.root > .item img {margin: 0 -9px -1px 7px}
+body.rtl .menutop li.parent.root .item .daddyicon, body.rtl .menutop li.root .daddy.item .daddyicon {left: 7px;right: inherit;}
+body.rtl .menutop ul li > .daddy span {background-position: 5px -368px;}
+body.rtl .menutop li {float: right;}
+
+/* Side Menu */
+body.rtl .menu li.parent li > a {background-position: 100% -614px;padding: 0 10px 0 0;}
+body.rtl .menu li.parent li:hover > a {background-position: 100% -558px;}
+
+/* Articles */
+body.rtl .module-title, body.rtl .component-content h1, body.rtl .component-content h2 {margin-right: -20px;margin-left: 0;}
+body.rtl .title, body.rtl .component-content h1, body.rtl .component-content h2, body.rtl .edit legend {box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.5);border-radius: 3px 0 0 3px;}
+body.rtl .blog-published {float: left;margin: 0 15px 15px -20px;border-radius: 0 3px 3px 0px;}
+body.rtl .component-content .actions {float: left;}
+body.rtl .rt-transparent-bg .title, body.rtl .rt-transparent-bg .title1 .title, body.rtl .rt-transparent-bg .title2 .title, body.rtl .rt-transparent-bg .title3 .title, body.rtl .rt-transparent-bg .title4 .title, body.rtl .menutop .fusion-module .title {background: none;box-shadow: none;border: none;text-shadow: none;padding: 0;}
+body.rtl .rt-footer-surround .title {background-position: 20px 100%;background-repeat: no-repeat;display: block;background-color: transparent;box-shadow: none;}
+
+/* Member Access */
+body.rtl #login-form label, body.rtl .component-content #password-lbl, body.rtl #username-lbl {float: right;}
+body.rtl .component-content .login + div ul li a, body.rtl #login-form a {padding: 4px 15px 4px 0;background-position: 100% -614px;}
+body.rtl .component-content .login + div ul li a:hover, body.rtl #login-form a:hover {background-position: 100% -558px;}
+
+body.rtl .contact-form dt, body.rtl .contact-form dd {float: right;clear: right;}
+
+/* RokAjaxSearch */
+body.rtl #rokajaxsearch .inputbox {background-position: 5px -69px;}
+
+/* Branding */
+body.rtl #rocket {float: right;}
+
+/* Copyright */
+body.rtl .copytext {text-align: right;}

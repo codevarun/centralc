@@ -1,0 +1,120 @@
+/**
+* @version   $Id: demo-styles.css 1069 2012-06-01 16:55:42Z kevin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* General Frontpage */
+.menu-home #rt-content-top .rt-grid-4, .menu-home #rt-content-bottom .rt-grid-4 {width: 370px;}
+.menu-home #rt-content-top .rt-grid-5, .menu-home #rt-content-bottom .rt-grid-5 {width: 310px;}
+.rt-image {box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);}
+#rt-header .horizmenu, #rt-header #rokajaxsearch {margin-top: 20px;}
+.menu-home .fp-rsfeatures .sprocket-features-img-container img {height: 348px;}
+.menu-features .rt-demo-grid-4 .module-title {margin-left: 0;}
+.horizmenu .menu {max-height: 25px;}
+.horizmenu .module-surround {text-align: right;}
+
+/* Menu Presets */
+.menu-presets em {margin-top: -8px;}
+
+/* RokGallery */
+.fp-rokgallery .rg-gm-slice-item {padding: 5px;}
+.fp-rokgallery .rg-gm-slice {padding: 0; margin: 0;}
+
+/* SubPages Typography */
+.promo1, .promo2, .promo3, .promo4 {display: block; font-family: Helvetica,Arial,sans-serif;}
+.promo2, .promo3 {font-weight: 100; letter-spacing: -1px;}
+.promo1 {font-weight: 600; font-size: 70px; letter-spacing: -3px; line-height: 110px;}
+.promo2 {font-size: 45px; line-height: 50px;}
+.promo2 em {font-weight: 600; font-style: normal;}
+.promo3 {font-size: 30px; line-height: 40px;}
+.promo4 {font-size: 25px; padding: 15px 0 10px 0;}
+.rt-hero1-img {display: block; width: 920px; height: 380px; margin: 15px 0;}
+.rt-hero2-img {display: block; width: 430px; height: 260px; margin: 0;}
+.rt-hero3-img {display: block; width: 920px; height: 400px; margin: 15px 0;}
+
+/* Styles */
+.rt-styles-box {width: 450px;float: left;}
+
+/* Custom Grid */
+.rt-demo-grid-2, .rt-demo-grid-3, .rt-demo-grid-4, .rt-demo-grid-5, .rt-demo-grid-6, .rt-demo-grid-7, .rt-demo-grid-8, .rt-demo-grid-9 {float: left;margin-left: 10px;margin-right: 10px;}
+.rt-grid-4 .rt-block .rt-demo-grid-2 {width: 90px;}
+.rt-grid-8 .rt-demo-grid-2 {width: 90px;}
+.rt-grid-9 .rt-demo-grid-2 {width: 120px;}
+.rt-grid-6 .rt-block .rt-demo-grid-3 {width: 190px;}
+.rt-grid-8 .rt-demo-grid-3 {width: 175px;}
+.rt-grid-9 .rt-demo-grid-3 {width: 200px;}
+.rt-grid-8 .rt-demo-grid-4 {width: 270px;}
+.rt-grid-8 .rt-demo-grid-5 {width: 380px;}
+.rt-grid-9 .rt-demo-grid-4 {width: 313px;}
+.rt-grid-8 .rt-demo-grid-6 {width: 440px;}
+.rt-grid-12 .rt-demo-grid-3 {width: 205px;}
+.rt-grid-12 .rt-demo-grid-4 {width: 280px;}
+.rt-grid-12 .rt-demo-grid-6 {width: 430px;}
+.rt-grid-12 .rt-demo-grid-8 {width: 590px;}
+
+/* Standard Inline Structural Adjustments */
+body .rt-floatleft {float: left;margin-right: 15px;margin-left: 0;}
+body .rt-floatright {float: right;margin-left: 15px;margin-right: 0;}
+body .normalfont, body .normalfont li {font-size: 100% !important;}
+body .nobold, body .nobold a, body .nobold li {font-weight: normal !important;}
+body .nomarginall, body .nomarginall .rt-block, body ul.nomarginall, body li.nomarginall {margin-left: 0 !important;margin-right: 0 !important;margin-top: 0 !important;margin-bottom: 0 !important;}
+body .nopaddingall, body .nopaddingall .rt-block, body ul.nopaddingall, body li.nopaddingall {padding-left: 0 !important;padding-right: 0 !important;padding-top: 0 !important;padding-bottom: 0 !important;}
+body .nomargintop, body .nomargintop .rt-block, body ul.nomargintop, body li.nomargintop {margin-top: 0 !important;}
+body .nomarginbottom, body .nomarginbottom .rt-block, body ul.nomarginbottom, body li.nomarginbottom {margin-bottom: 0 !important;}
+body .nomarginleft, body .nomarginleft .rt-block, body ul.nomarginleft, body li.nomarginleft {margin-left: 0;}
+body .nomarginright, body .nomarginright .rt-block, body ul.nomarginright, body li.nomarginright {margin-right: 0;}
+body .nopaddingtop, body .nopaddingtop .rt-block, body ul.nopaddingtop, body li.nopaddingtop {padding-top: 0 !important;}
+body .nopaddingbottom, body .nopaddingbottom .rt-block, body ul.nopaddingbottom, body li.nopaddingbottom {padding-bottom: 0 !important;}
+body .nopaddingleft, body .nopaddingleft .rt-block, body ul.nopaddingleft, body li.nopaddingleft {padding-left: 0;}
+body .nopaddingright, body .nopaddingright .rt-block, body ul.nopaddingright, body li.nopaddingright {padding-right: 0;}
+.floatnone {float: none !important;}
+.clearnone {clear: none !important;}
+.noimage {display: none;visibility: hidden;}
+body .smallmarginbottom {margin-bottom: 5px !important;}
+body .smallmargintop {margin-top: 5px !important;}
+body .medmarginbottom {margin-bottom: 10px !important;}
+body .medmargintop {margin-top: 10px !important;}
+body .largemarginbottom {margin-bottom: 15px !important;}
+body .largemargintop {margin-top: 15px !important;}
+body .smallmarginleft {margin-left: 5px !important;}
+body .smallmarginright {margin-right: 5px !important;}
+body .medmarginleft {margin-left: 10px !important;}
+body .medmarginright {margin-right: 10px !important;}
+body .largemarginleft {margin-left: 15px !important;}
+body .largemarginright {margin-right: 15px !important;}
+body .smallpaddingbottom {padding-bottom: 5px !important;}
+body .smallpaddingtop {padding-top: 5px !important;}
+body .medpaddingbottom {padding-bottom: 10px !important;}
+body .medpaddingtop {padding-top: 10px !important;}
+body .largepaddingbottom {padding-bottom: 15px !important;}
+body .largepaddingtop {padding-top: 15px !important;}
+body .smallpaddingleft {padding-left: 5px !important;}
+body .smallpaddingright {padding-right: 5px !important;}
+body .medpaddingleft {padding-left: 10px !important;}
+body .medpaddingright {padding-right: 10px !important;}
+body .largepaddingleft {padding-left: 15px !important;}
+body .largepaddingright {padding-right: 15px !important;}
+body .rt-relative {position: relative;}
+
+/* RTL Stuff */
+body.rtl .rt-floatleft {float: right;margin-right: 0;margin-left: 15px;}
+body.rtl .rt-floatright {float: left;margin-left: 0;margin-right: 15px;}
+body.rtl .nomarginleft, body.rtl .nomarginleft .rt-block, body.rtl ul.nomarginleft, body.rtl li.nomarginleft {margin-right: 0;}
+body.rtl .nomarginright, body.rtl .nomarginright .rt-block, body.rtl ul.nomarginright, body.rtl li.nomarginright {margin-left: 0;}
+body.rtl .nopaddingleft, body.rtl .nopaddingleft .rt-block, body.rtl ul.nopaddingleft, body.rtl li.nopaddingleft {padding-right: 0;}
+body.rtl .nopaddingright, body.rtl .nopaddingright .rt-block, body.rtl ul.nopaddingright, body.rtl li.nopaddingright {padding-left: 0;}
+body.rtl .smallmarginleft {margin-right: 5px;}
+body.rtl .smallmarginright {margin-left: 5px;}
+body.rtl .medmarginleft {margin-right: 10px;}
+body.rtl .medmarginright {margin-left: 10px;}
+body.rtl .largemarginleft {margin-right: 15px;}
+body.rtl .largemarginright {margin-left: 15px;}
+body.rtl .smallpaddingleft {padding-right: 5px;}
+body.rtl .smallpaddingright {padding-left: 5px;}
+body.rtl .medpaddingleft {padding-right: 10px;}
+body.rtl .medpaddingright {padding-left: 10px;}
+body.rtl .largepaddingleft {padding-right: 15px;}
+body.rtl .largepaddingright {padding-left: 15px;}
+body.rtl .rt-demo-grid-2, body.rtl .rt-demo-grid-3, body.rtl .rt-demo-grid-4, body.rtl .rt-demo-grid-5, body.rtl .rt-demo-grid-6, body.rtl .rt-demo-grid-7 {float: right;}

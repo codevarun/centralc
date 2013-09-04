@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+		<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+			<channel>
+		
+<title>Yahoo! Weather - Avila Beach, CA</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Avila_Beach__CA/*http://weather.yahoo.com/forecast/USCA0058_f.html</link>
+<description>Yahoo! Weather for Avila Beach, CA</description>
+<language>en-us</language>
+<lastBuildDate>Sun, 28 Jul 2013 7:55 pm PDT</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="Avila Beach" region="CA"   country="United States"/>
+<yweather:units temperature="F" distance="mi" pressure="in" speed="mph"/>
+<yweather:wind chill="61"   direction="320"   speed="8" />
+<yweather:atmosphere humidity="78"  visibility="10"  pressure="29.9"  rising="1" />
+<yweather:astronomy sunrise="6:08 am"   sunset="8:08 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+</image>
+<item>
+<title>Conditions for Avila Beach, CA at 7:55 pm PDT</title>
+<geo:lat>35.18</geo:lat>
+<geo:long>-120.73</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Avila_Beach__CA/*http://weather.yahoo.com/forecast/USCA0058_f.html</link>
+<pubDate>Sun, 28 Jul 2013 7:55 pm PDT</pubDate>
+<yweather:condition  text="Fair"  code="34"  temp="61"  date="Sun, 28 Jul 2013 7:55 pm PDT" />
+<description><![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/34.gif"/><br />
+<b>Current Conditions:</b><br />
+Fair, 61 F<BR />
+<BR /><b>Forecast:</b><BR />
+Sun - Partly Cloudy. High: 65 Low: 52<br />
+Mon - Partly Cloudy. High: 65 Low: 52<br />
+Tue - Partly Cloudy. High: 67 Low: 52<br />
+Wed - AM Clouds/PM Sun. High: 68 Low: 53<br />
+Thu - AM Clouds/PM Sun. High: 69 Low: 51<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Avila_Beach__CA/*http://weather.yahoo.com/forecast/USCA0058_f.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+]]></description>
+<yweather:forecast day="Sun" date="28 Jul 2013" low="52" high="65" text="Partly Cloudy" code="29" />
+<yweather:forecast day="Mon" date="29 Jul 2013" low="52" high="65" text="Partly Cloudy" code="30" />
+<yweather:forecast day="Tue" date="30 Jul 2013" low="52" high="67" text="Partly Cloudy" code="30" />
+<yweather:forecast day="Wed" date="31 Jul 2013" low="53" high="68" text="AM Clouds/PM Sun" code="30" />
+<yweather:forecast day="Thu" date="1 Aug 2013" low="51" high="69" text="AM Clouds/PM Sun" code="30" />
+<guid isPermaLink="false">USCA0058_2013_08_01_7_00_PDT</guid>
+</item>
+</channel>
+</rss>
+
+<!-- api28.weather.bf1.yahoo.com Mon Jul 29 03:51:26 PST 2013 -->

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="EVENTS_LAYOUT">
+		<message>
+			<![CDATA[DEFAULT_OHANAH_EVENTS_LAYOUT_DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>DEFAULT_OHANAH_EVENTS_LAYOUT</name>
+		<description>DEFAULT_OHANAH_EVENTS_LAYOUT_DESC</description>
+		<params>
+			<param type="list" name="usePagination" label="OHANAH_USE_PAGINATION" description="" default="0">
+				<option value="0">OHANAH_NO</option>
+				<option value="1">OHANAH_YES</option>
+			</param>
+
+			<param type="list" name="direction" label="OHANAH_EVENTS_ORDERING" description="" default="asc">
+				<option value="asc">OHANAH_ASCENDING</option>
+				<option value="desc">OHANAH_DESCENDING</option>
+			</param>
+		
+			<param type="list" name="eventsPerPage" label="OHANAH_EVENTS_PER_PAGE" description="" default="10">
+				<option value="3">3</option>
+				<option value="5">5</option>
+				<option value="10">10</option>
+				<option value="15">15</option>
+				<option value="20">20</option>
+				<option value="30">30</option>
+			</param>
+
+			<param type="list" name="list_type" label="OHANAH_EVENTS_TIME" description="" default="notpast">
+				<option value="past">OHANAH_PAST_EVENTS</option>
+				<option value="notpast">OHANAH_NOT_PAST_EVENTS</option>
+				<option value="all">OHANAH_ALL_EVENTS</option>
+			</param>
+			
+			<param type="list" name="showOnlyACategory" label="SHOW_ONLY_A_CATEGORY" description="" default="0">
+				<option value="0">OHANAH_NO</option>
+				<option value="1">OHANAH_YES</option>
+			</param>
+			
+			<param 
+				type="sql" 
+				name="ohanah_category_id" 
+				label="CATEGORY" 
+				description="" 
+				query="SELECT title, ohanah_category_id FROM #__ohanah_categories"
+				key_field="ohanah_category_id" value_field="title" />
+			
+			<param type="list" name="showOnlyAVenue" label="SHOW_ONLY_A_VENUE" description="" default="0">
+				<option value="0">OHANAH_NO</option>
+				<option value="1">OHANAH_YES</option>
+			</param>
+			
+			<param 
+				type="sql" 
+				name="ohanah_venue_id" 
+				label="VENUE" 
+				description="" 
+				query="SELECT title, ohanah_venue_id FROM #__ohanah_venues"
+				key_field="ohanah_venue_id" value_field="title" />
+			
+			<param type="list" name="showOnlyACountry" label="OHANAH_SHOW_ONLY_A_COUNTRY" description="" default="0">
+				<option value="0">OHANAH_NO</option>
+				<option value="1">OHANAH_YES</option>
+			</param>
+			
+			<param 
+				type="sql" 
+				name="geolocated_country" 
+				label="OHANAH_COUNTRY" 
+				description="" 
+				query="SELECT DISTINCT geolocated_country, geolocated_country FROM #__ohanah_events WHERE geolocated_country != ''"
+				key_field="geolocated_country" value_field="geolocated_country" />
+						
+			<param type="list" name="showOnlyAState" label="OHANAH_SHOW_ONLY_A_STATE" description="" default="0">
+				<option value="0">OHANAH_NO</option>
+				<option value="1">OHANAH_YES</option>
+			</param>
+			
+			<param 
+				type="sql" 
+				name="geolocated_state" 
+				label="OHANAH_STATE" 
+				description="" 
+				query="SELECT DISTINCT geolocated_state, geolocated_state FROM #__ohanah_events WHERE geolocated_state != ''"
+				key_field="geolocated_state" value_field="geolocated_state" />
+
+			<param type="list" name="showOnlyACity" label="OHANAH_SHOW_ONLY_A_CITY" description="" default="0">
+				<option value="0">OHANAH_NO</option>
+				<option value="1">OHANAH_YES</option>
+			</param>
+			
+			<param 
+				type="sql" 
+				name="geolocated_city" 
+				label="OHANAH_CITY" 
+				description="" 
+				query="SELECT DISTINCT geolocated_city, geolocated_city FROM #__ohanah_events WHERE geolocated_city != ''"
+				key_field="geolocated_city" value_field="geolocated_city" />
+
+			<param type="list" name="showOnlyARecurringSerie" label="OHANAH_SHOW_ONLY_A_RECURRING_SERIE" description="" default="0">
+				<option value="0">OHANAH_NO</option>
+				<option value="1">OHANAH_YES</option>
+			</param>
+			
+			<param type="sql" name="recurringParent" label="OHANAH_RECURRING_EVENT" description=""	query="SELECT DISTINCT recurring.title AS title, recurring.ohanah_event_id AS id FROM #__ohanah_events AS events LEFT JOIN #__ohanah_events AS recurring ON events.recurringParent = recurring.ohanah_event_id WHERE events.recurringParent != '' AND recurring.title != ''" key_field="id" value_field="title" />
+
+			<param type="list" name="displayStyle" label="OHANAH_LIST_STYLE" description="" default="normal">
+				<option value="normal">OHANAH_STANDARD_EVENTS_LIST</option>
+				<option value="ul_list">OHANAH_HTML_UL_EVENTS_LIST</option>
+			</param>
+
+		</params>
+		<config>
+			<fields name="params">
+				<fieldset name="basic">		
+					
+					<field type="list" name="usePagination" label="OHANAH_USE_PAGINATION" description="" default="0">
+						<option value="0">OHANAH_NO</option>
+						<option value="1">OHANAH_YES</option>
+					</field>
+
+					<field type="list" name="direction" label="OHANAH_EVENTS_ORDERING" description="" default="asc">
+						<option value="asc">OHANAH_DESCENDING</option>
+						<option value="desc">OHANAH_ASCENDING</option>
+					</field>
+				
+					<field type="list" name="eventsPerPage" label="OHANAH_EVENTS_PER_PAGE" description="" default="10">
+						<option value="3">3</option>
+						<option value="5">5</option>
+						<option value="10">10</option>
+						<option value="15">15</option>
+						<option value="20">20</option>
+						<option value="30">30</option>
+					</field>
+						
+					<field type="list" name="list_type" label="OHANAH_EVENTS_TIME" description="" default="notpast">
+						<option value="past">OHANAH_PAST_EVENTS</option>
+						<option value="notpast">OHANAH_NOT_PAST_EVENTS</option>
+						<option value="all">OHANAH_ALL_EVENTS</option>
+					</field>
+					
+					<field 
+						type="sql" 
+						name="ohanah_category_id" 
+						label="CATEGORY" 
+						description="" 
+						query="SELECT title, ohanah_category_id FROM #__ohanah_categories"
+						key_field="ohanah_category_id" value_field="title">
+						<option value="">OHANAH_CHOOSE_CATEGORY</option>
+					</field>
+					
+					<field 
+						type="sql" 
+						name="ohanah_venue_id" 
+						label="VENUE" 
+						description="" 
+						query="SELECT title, ohanah_venue_id FROM #__ohanah_venues"
+						key_field="ohanah_venue_id" value_field="title">
+						<option value="">OHANAH_CHOOSE_VENUE</option>
+					</field>
+
+					<field 
+						type="sql" 
+						name="geolocated_country" 
+						label="OHANAH_COUNTRY" 
+						description="" 
+						query="SELECT DISTINCT geolocated_country, geolocated_country FROM #__ohanah_events WHERE geolocated_country != ''"
+						key_field="geolocated_country" value_field="geolocated_country">
+						<option value="">OHANAH_CHOOSE_COUNTRY</option>
+					</field>
+
+					<field 
+						type="sql" 
+						name="geolocated_state" 
+						label="OHANAH_STATE" 
+						description="" 
+						query="SELECT DISTINCT geolocated_state, geolocated_state FROM #__ohanah_events WHERE geolocated_state != ''"
+						key_field="geolocated_state" value_field="geolocated_state">
+						<option value="">OHANAH_CHOOSE_A_STATE</option>
+					</field>
+
+					<field 
+						type="sql" 
+						name="geolocated_city" 
+						label="OHANAH_CITY" 
+						description="" 
+						query="SELECT DISTINCT geolocated_city, geolocated_city FROM #__ohanah_events WHERE geolocated_city != ''"
+						key_field="geolocated_city" value_field="geolocated_city">
+						<option value="">OHANAH_CHOOSE_A_CITY</option>
+					</field>
+
+					<field type="sql" name="recurringParent" label="OHANAH_RECURRING_EVENT" description=""	query="SELECT DISTINCT recurring.title AS title, recurring.ohanah_event_id AS id FROM #__ohanah_events AS events LEFT JOIN #__ohanah_events AS recurring ON events.recurringParent = recurring.ohanah_event_id WHERE events.recurringParent != '' AND recurring.title != ''" key_field="id" value_field="title">
+						<option value="">OHANAH_CHOOSE_A_RECURRING_SERIE</option>
+					</field>
+
+					<field type="list" name="displayStyle" label="OHANAH_LIST_STYLE" description="" default="normal">
+						<option value="normal">OHANAH_STANDARD_EVENTS_LIST</option>
+						<option value="ul_list">OHANAH_HTML_UL_EVENTS_LIST</option>
+					</field>
+				</fieldset>
+			</fields>
+		</config>		
+	</state>
+</metadata>

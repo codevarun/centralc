@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Calendar">
+		<message>
+			<![CDATA[Events calendar]]>
+		</message>
+	</layout>
+	<state>
+		<name>Calendar</name>
+		<description>Events calendar</description>
+		<params>
+			<param type="text" name="year" label="Year to show" description="Year to show" default=""></param>
+			<param type="text" name="month" label="Month to show" description="Month to show" default=""></param>
+			<param type="text" name="day" label="Day to show:" description="Enter the number of the day" default=""></param>
+			<param type="list" name="firstDay" label="First day of week:" description="" default="1">
+				<option value="0">Sunday</option>
+				<option value="1">Monday</option>
+				<option value="6">Saturday</option>
+			</param>
+			<param type="list" name="dayBeforeTheMonth" label="Show the day before the month:" description="European-style dates?" default="0">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param type="list" name="showTime" label="Show the time:" description="" default="1">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param type="list" name="showAddressOfEvents" label="Show the address of the events:" description="" default="0">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param type="list" name="defaultView" label="Default view:" description="" default="month">
+				<option value="month">Month</option>
+				<option value="agendaWeek">Week</option>
+				<option value="agendaDay">Day</option>
+			</param>
+		</params>
+		<config>
+			<fields name="params">
+				<fieldset name="basic">			
+					<field type="text" name="year" label="Year to show" description="Year to show" default="" />
+					<field type="text" name="month" label="Month to show" description="Month to show" default="" />
+					<field type="text" name="day" label="Day to show:" description="Enter the number of the day" default="" />
+					<field type="list" name="firstDay" label="First day of week:" description="" default="1">
+						<option value="0">Sunday</option>
+						<option value="1">Monday</option>
+						<option value="6">Saturday</option>
+					</field>
+					
+					<field type="list" name="showTime" label="Show the time:" description="" default="1">
+						<option value="0">No</option>
+						<option value="1">Yes</option>
+					</field>
+
+					<field type="list" name="dayBeforeTheMonth" label="Show the day before the month:" description="European-style dates?" default="0">
+						<option value="0">No</option>
+						<option value="1">Yes</option>
+					</field>
+					
+					<field type="list" name="showAddressOfEvents" label="Show the address of the events:" description="" default="0">
+						<option value="0">No</option>
+						<option value="1">Yes</option>
+					</field>
+					<field type="list" name="defaultView" label="Default view:" description="" default="month">
+						<option value="month">Month</option>
+						<option value="agendaWeek">Week</option>
+						<option value="agendaDay">Day</option>
+					</field>
+				</fieldset>
+			</fields>
+		</config>		
+	</state>
+</metadata>

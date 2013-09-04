@@ -1,0 +1,29 @@
+/**
+* @version   $Id: template-ie8.css 997 2012-05-31 05:29:01Z josh $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Joomla Core */
+.button {border: none;}
+.menutop li {zoom: 1;position: relative;}
+.title5 h2.title:before {width: 0;height: 0;border: none;}
+.login-fields input {width: 144px;}
+
+/* Menus */
+.menutop #form-login .input .inputbox {width: 100%;}
+#rt-navigation {margin-bottom: 4px;}
+#rt-navigation, .menutop .fusion-submenu-wrapper.level2  {zoom: 1;}
+.fusion-submenu-wrapper {margin-left: 1px;}
+.fusion-js-subs {margin-top: -1px !important;zoom: 1;}
+.rt-menubar .menutop li > .item, .rt-menubar .menutop li.f-mainparent-itemfocus > .item {margin: -1px -1px 0 !important;padding: 0 1px 0;z-index: 9;position: static !important;zoom: 1;border: 0 !important;}
+.rt-menubar .menutop li:hover > .item, .rt-menubar .menutop li.f-mainparent-itemfocus > .item {margin: -1px -1px 0 !important;padding: 0 1px 0;z-index: 9;position: static !important;zoom: 1;border: 0 !important;}
+.menutop.fusion-js-container ul li > .item:hover, .menutop.fusion-js-container li.f-menuparent-itemfocus > .item, .menutop.fusion-js-container ul li.active > .item, .menutop.fusion-js-container li.active.f-menuparent-itemfocus > .item {margin: 0 10px !important;}
+.horizmenu ul.menu li a:hover, .horizmenu ul.menu li .item:hover, .horizmenu ul.menu li .separator:hover, .horizmenu ul.menu li.active a, .horizmenu ul.menu li.active .item, .horizmenu ul.menu li.active .separator {zoom: 1;margin: 0;}
+
+/* Sprocket */
+.sprocket-mosaic-hovercontent {display: none;}
+.sprocket-mosaic-image-container:hover .sprocket-mosaic-hovercontent {display: block;zoom: 1;}
+.sprocket-mosaic-hovercontent, .menutop li {zoom: 1;}
+.layout-showcase .sprocket-features-arrows {left: 369px !important;}

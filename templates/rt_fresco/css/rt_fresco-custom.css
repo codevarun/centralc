@@ -1,0 +1,207 @@
+/*-----Custom CSS for Fresco Template by BB9------*/
+
+.menu-home .fp-rsfeatures .sprocket-features-img-container img {height:359px;}
+.logo-block {padding-bottom: 0px;}
+
+#input_ifsea_0 label {
+	width:55px;
+}
+.ccms_form_element label {
+	text-transform: uppercase;
+	width:170px;
+}
+.cfdiv_text input:focus, textarea:focus {
+	border-color: #8c8c8c;
+	outline: 2px solid #dcdcdc;
+}
+
+.cfdiv_text input:hover, textarea:hover {
+	border-color: #aaaaaa;
+}
+.cfdiv_text input, textarea {
+	width:416px;
+}
+.chronoform {
+	display: none;
+}
+.cfdiv_checkboxgroup label:first-child {
+	width:450px;
+}
+.cfdiv_radio label {
+	width:25px;
+}
+.cfdiv_radio label:first-child {
+	width:450px;
+}
+#event-container-info .ohanah-event-ticket-cost, #event-container-info .ticket_icon {
+	display:none;
+}
+
+#rt-copyright .copytext .copsymb {
+	color:white;
+}
+
+.readon, .roksearch-wrapper, #mailtoForm .button {
+	box-shadow: 0 0 0 2px rgba(0,0,0,0.2);
+	border-radius: 1px;
+}
+
+.item-page p img {
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.pos-subtitle {
+	color:#eb7a31;
+}
+
+/*--------Menu Styling-------*/
+
+#rt-navigation {
+	background: #F1F5F5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.1)
+}
+
+.menutop .item {
+	color: #2FC3ED;
+	text-shadow: none;	
+}
+
+em.highlight.yellow a {
+	color:white;
+}
+
+
+.rt-menubar .menutop .item248 {
+//background-color: #FE6579;
+background-color: #eb7a31;
+position: relative;
+border-radius: 4px 4px 0 0;
+z-index: 600001;
+box-shadow: 0 -2px 4px rgba(0,0,0,0.3);
+//border-left: 1px solid rgba(0,0,0,0.2);
+//border-right: 1px solid rgba(0,0,0,0.2);
+//border-top: 1px solid rgba(0,0,0,0.2);
+}
+.rt-menubar .menutop .item248 span {
+text-shadow: 1px -1px 1px rgba(0,0,0,0.5) !important;
+color: #fff;
+}
+
+
+/*-------Background Styling---------*/
+
+.backgroundlevel-high, .backgroundlevel-med {
+	background: #0e446a url(../images/community-b/ocean_bg.jpg) 50% 0 repeat-x;
+}
+
+#rt-page-surround {
+	background: url(../images/community-b/ocean_img.jpg) 50% 0 no-repeat;
+}
+
+
+/*---------ZOO Styling----------*/
+
+.blog-warp6 .pos-top {
+	float: right;
+}
+
+.blog-warp6 .pos-content .element-itemlink {
+	margin:20px;
+	//float:right;
+	//padding-bottom: 100px;
+}
+
+.blog-warp6 .pos-media {
+	float:left;
+	padding:0 20px 20px 0;
+}
+
+#yoo-zoo .items h2.pos-title {
+	//margin: 8px 0 15px 0;
+	background: none;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.0);
+	background-image: none;
+	padding: 0px;
+}
+
+#yoo-zoo .item h1.pos-title, #yoo-zoo .items h1.pos-title {
+	margin: 0 0 8px -20px;
+	font-size: 30px;
+}
+
+#yoo-zoo.business-default-frontpage .details h1.title {
+	margin:0 0 15px -30px;
+}
+
+#yoo-zoo.movie-default .details h1.title, #yoo-zoo.page-default .item h1.pos-title {
+	margin:0 0 15px -20px;
+}
+
+#yoo-zoo .details {
+	border:none;
+}
+
+#yoo-zoo h1.box-title {
+	padding: 0;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.0);
+}
+
+#yoo-zoo .teaser-item img, .element-image img, .product-default .pos-description img {
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#yoo-zoo.product-default .teaser-item .pos-specification a {
+	font-size: 0.9em;
+	box-shadow: 0 0 0 2px rgba(0,0,0,0.2);
+	border-radius: 1px;
+	background-color: #2FC3ED;
+	color: #fff;
+	border: 1px solid rgba(0,0,0,0.4);
+	text-shadow: 1px -1px 1px rgba(0,0,0,0.3);
+	background-image: url(../images/community-b/readon.png);
+	text-decoration: none;
+	padding: 4px 15px;	
+}
+
+#yoo-zoo.product-default .items div.teaser-item {
+	padding-bottom: 5px;
+}
+
+#yoo-zoo.product-default h2 {
+	color:#eb7a31;
+}
+
+/*----------Pagination Styling-------------*/
+
+.blog-warp6 .pagination {
+	margin-left:auto;
+	margin-right:auto;
+	width:20%;
+}
+
+.blog-warp6 .pagination a {
+	margin: 0 5px 0 5px;
+}
+
+/*------------OHANAH-------------*/
+
+.ohanah .event_detail_title h2 {
+	border-radius: 0;
+	background-repeat: no-repeat;
+	background-color:inherit;
+	background-image: none;
+	box-shadow: none;
+	color: inherit;
+	text-shadow: none;
+}
+
+.ohanah-event-full-description {
+	clear:none;
+}
+.ohanah .event-photos {
+	width: 100px;
+	height: 100px;
+	float:left;
+	margin-right: 10px;
+}
+.ohanah .fc-event-inner .fc-event-time {display:none;}

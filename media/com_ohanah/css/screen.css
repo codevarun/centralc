@@ -1,0 +1,434 @@
+/* @event header container */
+
+.ohanah .event_header_container {
+	width: 78%;
+	clear: both;
+}
+
+.ohanah .event-photos {
+	width:50px; 
+	float:right; 
+	margin:2px; 
+	border:1px solid #CCCCCC; 
+	border-radius:3px; 
+	height:50px;
+}
+
+.ohanah div#event_date_day div  {
+	text-align:center;
+}
+
+/* @event date&flyer container */
+
+.ohanah .event_date_flyer_container {
+	float: left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #EAEAEA;
+	width: 63px;
+	padding: 3px;
+	display: block;
+	margin-right: 10px;
+	position: relative;	
+}
+
+.ohanah .event_date_gallery_container {
+	float: left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #EAEAEA;
+	max-height: 62px;
+	padding: 3px;
+	display: block;
+	margin:12px 5px 0 0;
+	position: relative;
+}
+
+.ohanah .date_icon {
+	background: url(../images/date_icon.png) no-repeat center;
+	width:20px;
+	height:16px;
+	float:left;
+	margin-right:10px;
+}
+
+
+
+.ohanah .location_icon {
+	background: url(../images/location_icon.png) no-repeat center;
+	width:20px;
+	height:16px;
+	float:left;
+	margin-right:10px;
+}
+
+.ohanah .ticket_icon {
+	background: url(../images/ticket_icon.png) no-repeat center;
+	width:20px;
+	height:16px;
+	float:right;
+	margin-right:10px;
+}
+
+.ohanah .event_date_gallery_container img{
+	width: 32px;
+	height: 32px;
+}
+
+.ohanah .event_date {
+	background: url(../images/date_bg.png) no-repeat;
+	display: block;
+	text-align: center;
+	width: 63px;
+	height: 75px;
+	font-family: "Arial";
+}
+
+.ohanah .event_date_day {
+	font-size: 36px;
+	line-height: 36px;
+	color: #fff;
+	font-weight: bold;
+	padding-top: 2px;
+	text-align: right;
+}
+
+.ohanah #event_date_day div {
+	text-align: center;
+}
+
+.ohanah .event_date_month {
+	font-size: 18px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.ohanah .event_date_year {
+	font-size: 12px;
+	line-height: 12px;
+	color: #fff;
+	padding-top: 2px;
+}
+
+.ohanah .event_flyer {
+	padding-top:4px;
+}
+
+.ohanah #event_flyer {
+	width: 62px;
+	height: 62px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.ohanah .event_detail_title h2  {
+	font-size: 20px;
+	line-height: 20px;
+	padding-top: 5px;
+	margin: 0px;
+	display: block;
+}
+
+.ohanah .event_detail_location h3 {
+	padding-bottom:10px;
+	
+}
+
+.ohanah .event_detail_time{
+	
+	
+}
+
+.ohanah .join {
+	float:right;
+	margin-bottom:-90px;
+}
+
+.ohanah #join .join_places_arrow div {
+	text-align: center;
+	
+}
+
+.ohanah .join_places {
+	width: 90px;
+	height: 100%;
+	float: right;
+	padding: 8px;
+	background: url(../images/dark_transparent_bg.png);
+	color: #fff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	
+}
+
+.ohanah .join_places_arrow {
+	//background: url(../images/dark_transparent_arrow.png) 30px 83px no-repeat;
+	width: 90px;
+	height: 100%;
+	float:right;
+	padding-right:3px;
+	
+}
+
+
+
+.ohanah .getdirections {
+	background: url(../images/dark_transparent_bg2.png) repeat;
+	width: 100%;
+	height: 30px;
+	position: relative;
+}
+
+.ohanah .eventregister-button { 
+   margin:-5px 0px 0 0; 
+   padding: 3px .5em;
+   text-decoration:none !important; 
+   cursor:pointer; 
+   position: relative; 
+   text-align: center; 
+   zoom: 0; 
+   float: right;
+   width: 100px;
+
+}
+
+.ohanah .join .ui-button {
+
+}
+
+.ohanah .eventregister2-button { 
+   margin:4px 4px 0 0; 
+   padding: 0px .5em;
+   text-decoration:none !important; 
+   cursor:pointer; 
+   position: relative; 
+   text-align: center; 
+   zoom: 0; 
+   float: right;
+
+}
+
+.ohanah #event_main_map_wrapper {
+	
+}
+
+.ohanah #event_main_map {
+	border-radius:5px;
+}
+
+.ohanah .event_main_location_description h3 {
+	font-size: 12px;
+	margin: 0;
+	padding-top: 5px;
+}
+	
+.ohanah .event_main_location_description p {
+	font-size: 12px;
+	margin: 0;
+	padding: 5px 0;
+}
+
+.ohanah .event_description_header {
+	max-height: 35px;
+}
+
+.ohanah .event_description_header h3 {
+	padding-bottom: 8px;
+	margin:0px;
+	font-size: 14px;
+}
+
+.ohanah .event_description_content {	
+	padding: 5px;
+}
+
+.ohanah .event_description {
+	position: relative;
+	display: block;
+	margin-top: 30px;
+}
+
+.ohanah .event_description.with_images {
+	margin-top: 100px;
+}
+
+.ohanah .event_description_feed {
+	display: block;
+	background: none;
+	margin-top: 20px;
+}
+
+.ohanah .event_description_header_feed {
+	clear:both;
+	padding-top:10px;
+}
+.ohanah .event_description_header_feed h3 {
+	padding-bottom: 8px;
+	margin:0px;
+	font-size: 14px;
+}
+
+/* @group Event pictures & map */
+
+.ohanah .locationphoto {
+	width: 35px;
+	height: 35px;
+	margin: 10px 0 0 7px;
+}
+
+.ohanah .photocontainer {
+	font-size: 11px;
+	color: #666;
+	margin-top: 3px;
+}
+
+.ohanah #event_main_flyer {
+	max-width: 200px;
+	max-height: 280px;
+	z-index: 6;
+}
+
+.ohanah #event_main_flyer img {
+	max-height: 260px;
+	max-width: 180px;
+}
+
+.ohanah #event_main_flyer #no_event_image img, 
+.ohanah #event_main_flyer img#event_image {
+	padding: 10px;
+}
+
+.ohanah #map_canvas {
+	margin-top: 10px;
+}
+
+.ohanah #event_main_flyer #no_event_image img, 
+.ohanah #event_main_flyer img#event_image {
+	padding: 10px;
+}
+
+.ohanah #no_event_image p {
+	margin-top: -40px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group Event header */
+
+.ohanah #event_header h1 a
+{
+	font-size: 24px;
+}
+
+.ohanah #event_header h3
+{
+	font-size: .9em;
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+/* @end */
+
+/* @group Event Date */
+
+
+.ohanah .event_feed_container {
+	width: 99%;
+	padding: 5px;
+	background: url(../images/dark_transparent_bg.png) repeat;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.ohanah .event_comment_container {
+	width: 99%;
+	padding: 4px 2px 4px 4px;
+	background: url(../images/dark_transparent_bg.png) repeat;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.ohanah .event_feed_arrow {
+	background: url(../images/dark_transparent_arrow.png) 15px 5px no-repeat;
+	width:100%;
+	height: 15px;
+	float:right;
+	padding-right:3px;
+}
+
+/* @end */
+
+
+.ohanah label.error {
+	display: block;
+	float: none;
+	color: red;
+	padding-left: .5em;
+	vertical-align: top;
+}
+
+.ohanah h3 {
+	font-size: 15px;
+}
+
+.ohanah .checked {
+	background: #E5E5E5;
+}
+
+.ohanah .pointer {
+	cursor: pointer;
+}
+
+.ohanah .who_avatars img {
+	width: 25px;
+	height: 25px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.ohanah .who_avatars span {
+	font-size: 14px;
+	vertical-align: 8px;
+	padding-left:5px;
+}
+
+.ohanah .who_avatars hr {
+ 	opacity: 0.4;
+	margin:0;
+	padding:0;
+	margin-bottom:3px;
+}
+
+.ohanah .strong {
+	font-weight: bold;
+}
+
+/* @end */
+
+.ohanah .hide {
+	display: none;
+}
+
+
+label.error { display: block; padding-left: 0px; padding-top:5px; color: red;}
+
+.ohanah .fc-event { cursor: pointer; }
+.ohanah .fc-event:hover { cursor: pointer; text-decoration: underline;}
+
+.ohanah-social-buttons-wrapper {
+	height: 20px;
+	margin-bottom: 1em;
+}
+
+.ohanah-event-full-description {
+	clear: both;
+}

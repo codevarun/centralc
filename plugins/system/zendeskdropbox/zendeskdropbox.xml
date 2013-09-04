@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system" method="upgrade">
+    <name>System - Zendesk Dropbox for Joomla!</name>
+    <author>Jordan Worner</author>
+    <creationDate>October 2010</creationDate>
+    <copyright>Copyright (C) 2011 3B Digital Ltd. All rights reserved.</copyright>
+    <license>GNU General Public License</license>
+    <authorEmail>support@3bweb.com</authorEmail>
+    <authorUrl>http://www.3bweb.com</authorUrl>
+    <version>2.0</version>
+    <description>ZENDESK_DROPBOX_XML_DESC</description>
+    <params>
+        <param name="dropboxid" type="text" default="" label="ZENDESK_DROPBOX_ID_LABEL" description="ZENDESK_DROPBOX_ID_DESC" />
+        <param name="zendeskurl" type="text" default="" label="ZENDESK_DROPBOX_URL_LABEL" description="ZENDESK_DROPBOX_URL_DESC" />
+        <param name="tabid" type="list" default="support" label="ZENDESK_DROPBOX_TAB_LABEL" description="ZENDESK_DROPBOX_TAB_DESC">          
+            <option value="support">Support</option>
+            <option value="feedback">Feedback</option>
+            <option value="help">Help</option>
+            <option value="service">Service</option>
+            <option value="questions">Questions</option>
+            <option value="comments">Comments</option>
+            <option value="ask_us">Ask Us</option>
+        </param>
+        <param name="tabcolor" type="text" default="black" label="ZENDESK_DROPBOX_COLOR_LABEL" description="ZENDESK_DROPBOX_COLOR_DESC" />
+        <param name="tabposition" type="radio" default="Left" label="ZENDESK_DROPBOX_POSITION_LABEL" description="ZENDESK_DROPBOX_POSITION_DESC">
+            <option value="Left">Left</option>
+            <option value="Right">Right</option>
+        </param>
+        <param name="application" type="list" default="admin" label="ZENDESK_DROPBOX_DISPLAY_LABEL" description="ZENDESK_DROPBOX_DISPLAY_DESC">            
+            <option value="admin">Administrator</option>
+            <option value="site">Site</option>
+            <option value="both">Both</option>
+        </param>    
+        <param name="hidetab" type="radio" default="false" label="ZENDESK_DROPBOX_HIDE_LABEL" description="ZENDESK_DROPBOX_HIDE_DESC">
+            <option value="false">No</option>
+            <option value="true">Yes</option>
+        </param>
+        <param name="joomlainfo" type="radio" default="0" label="ZENDESK_DROPBOX_USER_LABEL" description="ZENDESK_DROPBOX_USER_DESC">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <field name="requestimage" type="text" label="ZENDESK_DROPBOX_IMAGE_LABEL" description="ZENDESK_DROPBOX_IMAGE_J15_DESC" />
+        <param name="requestsubject" type="text" default="" label="ZENDESK_DROPBOX_SUBJECT_LABEL" description="ZENDESK_DROPBOX_SUBJECT_DESC" />             
+        <param name="requestdescription" type="textarea" default="" label="ZENDESK_DROPBOX_DESC_LABEL" description="ZENDESK_DROPBOX_DESC_DESC" rows="10" cols="40" />
+    </params>
+  
+  
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="dropboxid" type="text" default="" label="ZENDESK_DROPBOX_ID_LABEL" description="ZENDESK_DROPBOX_ID_DESC" />
+                <field name="zendeskurl" type="text" default="" label="ZENDESK_DROPBOX_URL_LABEL" description="ZENDESK_DROPBOX_URL_DESC" />
+                <field name="tabid" type="list" default="support" label="ZENDESK_DROPBOX_TAB_LABEL" description="ZENDESK_DROPBOX_TAB_DESC">          
+                    <option value="support">Support</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="help">Help</option>
+                    <option value="service">Service</option>
+                    <option value="questions">Questions</option>
+                    <option value="comments">Comments</option>
+                    <option value="ask_us">Ask Us</option>
+                </field>  
+                <field name="tabcolor" type="text" default="black" label="ZENDESK_DROPBOX_COLOR_LABEL" description="ZENDESK_DROPBOX_COLOR_DESC" />
+                <field name="tabposition" type="radio" default="Left" label="ZENDESK_DROPBOX_POSITION_LABEL" description="ZENDESK_DROPBOX_POSITION_DESC">
+                    <option value="Left">Left</option>
+                    <option value="Right">Right</option>
+                </field>
+                <field name="application" type="list" default="admin" label="ZENDESK_DROPBOX_DISPLAY_LABEL" description="ZENDESK_DROPBOX_DISPLAY_DESC">            
+                    <option value="admin">Administrator</option>
+                    <option value="site">Site</option>
+                    <option value="both">Both</option>
+                </field>
+                <field name="hidetab" type="radio" default="false" label="ZENDESK_DROPBOX_HIDE_LABEL" description="ZENDESK_DROPBOX_HIDE_DESC">
+                    <option value="false">No</option>
+                    <option value="true">Yes</option>
+                </field>
+                <field name="joomlainfo" type="radio" default="0" label="ZENDESK_DROPBOX_USER_LABEL" description="ZENDESK_DROPBOX_USER_DESC">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
+                <field name="requestimage" type="media" label="ZENDESK_DROPBOX_IMAGE_LABEL" description="ZENDESK_DROPBOX_IMAGE_DESC" />
+                <field name="requestsubject" type="text" default="" label="ZENDESK_DROPBOX_SUBJECT_LABEL" description="ZENDESK_DROPBOX_SUBJECT_DESC" />
+                <field name="requestdescription" type="textarea" default="" label="ZENDESK_DROPBOX_DESC_LABEL" description="ZENDESK_DROPBOX_DESC_DESC" rows="10" cols="40" />
+            </fieldset>
+        </fields>
+    </config>
+  
+  
+    <files>
+        <filename plugin="zendeskdropbox">zendeskdropbox.php</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">en-GB.plg_system_zendeskdropbox.ini</language>
+        <language tag="en-GB">en-GB.plg_system_zendeskdropbox.sys.ini</language>
+    </languages>
+</install>

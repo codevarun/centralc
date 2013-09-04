@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="EVENT_LAYOUT">
+		<message>
+			<![CDATA[DEFAULT_OHANAH_EVENT_LAYOUT_DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>DEFAULT_OHANAH_EVENT_LAYOUT</name>
+		<description>DEFAULT_OHANAH_EVENT_LAYOUT_DESC</description>
+		
+		<params>
+            <param type="sql" name="id" label="OHANAH_EVENT" description="" query="SELECT ohanah_event_id as value, CONCAT(title, ' (', date, ')') as id FROM #__ohanah_events" />
+		</params>
+		
+		<config>
+			<fields name="params">
+				<fieldset name="basic">	
+                    <field type="sql" name="id" label="OHANAH_EVENT" description="" query="SELECT ohanah_event_id as value, CONCAT(title, ' (', date, ')') as id FROM #__ohanah_events" />
+				</fieldset>
+			</fields>
+		</config>
+	</state>
+</metadata>

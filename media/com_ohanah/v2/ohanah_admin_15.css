@@ -1,0 +1,123 @@
+
+div.header{
+     color:#455868 !important;
+}
+ 
+div.toolbar{
+     float:none;
+}
+ 
+ #content-box{
+    -webkit-bottom-right-border-radius: 4px !important;
+    min-width: 1160px !important;
+ }
+ 
+ #toolbar-box{
+    margin-bottom:0 !important;
+ }
+ 
+ 
+#submenu li a{
+    color:#F9F9F9 !important;
+    border-right:none !important;
+    font-size: 13px;
+    font-weight: normal !important;
+    text-shadow:0 1px 1px rgba(0, 0, 0, 0.7);
+    margin-right: -7px;
+}
+ 
+ 
+div#toolbar-box div.m{
+    border-top: 1px solid #E7E9EB;
+    border-right:none !important;
+}
+ 
+.icon-48-alert{
+
+    font-size:14px !important;
+    background:url("ohanah_images/icon-48-alert.png") 24px center no-repeat;
+}
+ 
+.toolbar.alert td.button a{
+    background:url(ohanah_images/toolbarIcon_bg2.png) top left repeat-x !important;
+}
+ 
+.toolbar .alert {
+    margin-right:10px !important;
+}
+ 
+.checkUpdates{
+    height:30px;
+}
+ 
+
+ 
+ #tableWrapper table tr th.first, #tableWrapper table tr td.first{
+
+    width:70px;
+}
+ 
+ .biggest{
+    width:45%;
+ }
+ 
+ #filterFooter{
+   border-top:1px solid #fff;
+ }
+ 
+
+ #filterFooter input{
++    background:url(ohanah_images/input_bg.png) bottom center repeat-x;
+ }
+ 
+ .bordered{
+    padding:2px;
+    box-shadow: 0 0px 1px rgba(34,125,10,0.5);
+     border-bottom: 1px solid #C7C9C9;    
+}
+
+
+
+
+
+/* Short url form */
+#shorturl{
+    left:-9999px;
+    position:relative;
+    top:0px;
+    margin-top:-12px;
+    display:block;
+}
+
+/* FALSE UPLOADER */
+.SI-FILES-STYLIZED label.cabinet {
+    width: 103px;
+    height: 40px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    position:relative;
+    top:-40px;
+}
+
+.SI-FILES-STYLIZED label.cabinet input.file{
+    position: relative;
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+#submenu li {
+     padding: 0 !important;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+table.toolbar td.divider {
+    border-right: 0px!important;
+}

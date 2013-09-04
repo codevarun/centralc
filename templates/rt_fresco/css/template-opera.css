@@ -1,0 +1,14 @@
+/**
+* @version   $Id: template-opera.css 1004 2012-05-31 09:47:13Z karol $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Transitions */
+a {-o-transition: color 0.1s ease-in;}
+.menutop a {-o-transition: none;}
+.horizmenu ul.menu li a, .horizmenu ul.menu li .item, .horizmenu ul.menu li .separator {-o-transition: background-color 0.1s ease-out;}
+.sprocket-tabs-nav li {-o-transition: background-color 0.1s ease-out, color 0.1s ease-out;}
+body .rt-floatleft {position: relative;}
+body .rt-floatright {position: relative;}

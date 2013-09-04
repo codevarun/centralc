@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <layout title="User submitted events">
+    <message>
+      <![CDATA[User submitted events]]>
+    </message>
+  </layout>
+  <state>
+    <name>User submitted events</name>
+    <description>Events submitted by the user</description>
+    <params>
+    </params>
+    <config>
+    </config>   
+  </state>
+</metadata>

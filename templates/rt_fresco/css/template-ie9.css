@@ -1,0 +1,16 @@
+/**
+* @version   $Id: template-ie9.css 837 2012-05-26 05:39:12Z kevin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Structure */
+.login-fields input {width: 144px;}
+.button, .readon, .readmore, button.validate, #member-profile a, #member-registration a, .formelm-buttons button {letter-spacing: 1px;}
+
+/* Transitions */
+a {-ms-transition: color 0.1s ease-in;}
+.menutop a {-ms-transition: none;}
+.horizmenu ul.menu li a, .horizmenu ul.menu li .item, .horizmenu ul.menu li .separator {-ms-transition: background-color 0.1s ease-out;}
+.sprocket-tabs-nav li {-ms-transition: background-color 0.1s ease-out, color 0.1s ease-out;}

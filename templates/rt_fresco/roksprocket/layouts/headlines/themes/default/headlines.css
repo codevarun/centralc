@@ -1,0 +1,39 @@
+/**
+* @version   $Id: headlines.css 1031 2012-06-01 00:31:15Z josh $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Layout - Sprocket Headlines - Core */
+.sprocket-headlines {position: relative;display: table;width: 100%;overflow: hidden;}
+.sprocket-headlines:after {display: table;content: "";clear: both;}
+.sprocket-headlines-container {display: table-row;}
+.sprocket-headlines ul {list-style: none;margin: 0 0 -1px;}
+
+/* Layout - Sprocket Headlines - Badge */
+.sprocket-headlines-badge {float: left;position: relative;}
+.sprocket-headlines-badge span {display: block;padding: 0;font-size: 1.5em;font-weight: bold;line-height: 1.1em;}
+
+/* Layout - Sprocket Headlines - Items */
+.sprocket-headlines-list {float: left;padding: 0 0 0 20px;overflow: hidden;}
+.sprocket-headlines-item {font-size: 1.3em;line-height: 1.3em;position: absolute;font-style: italic;opacity: 0;height: 0;width: 0;display: block;visibility: hidden;}
+.sprocket-headlines-item a {font-size: inherit;line-height: inherit;}
+.sprocket-headlines-item.active {position: relative;opacity: 1;height: auto;width: auto;float: left;visibility: visible;}
+.animation-slideandfade .sprocket-headlines-item {margin-top: -100px;}
+.animation-slideandfade .sprocket-headlines-item.active {margin-top: 0;}
+.sprocket-headlines-image {float: left;margin-right: 10px;}
+
+/* Layout - Sprocket Headlines - Navigation */
+.sprocket-headlines-navigation {display: table-cell;vertical-align: middle;width: 30px;}
+.sprocket-headlines-navigation .arrow {position: relative;display: inline-block;cursor: pointer;text-align: center;font-size: 2.2em;line-height: 10px;}
+.sprocket-headlines-navigation .arrow.next {float: right;}
+
+/* Layout - Sprocket Headlines - Transitions */
+.animation-slideandfade .sprocket-headlines-item.active {-webkit-transition: margin 0.3s ease-out, opacity 0.4s ease-in;-moz-transition: margin 0.3s ease-out, opacity 0.4s ease-in;-o-transition: margin 0.3s ease-out, opacity 0.4s ease-in;-ms-transition: margin 0.3s ease-out, opacity 0.4s ease-in;transition: margin 0.3s ease-out, opacity 0.4s ease-in;}
+.animation-fade .sprocket-headlines-item.active {-webkit-transition: opacity 0.4s ease-in;-moz-transition: opacity 0.4s ease-in;-o-transition: opacity 0.4s ease-in;-ms-transition: opacity 0.4s ease-in;transition: opacity 0.4s ease-in;}
+.sprocket-headlines-navigation .arrow {-webkit-transition: opacity 0.2s ease-in;-moz-transition: opacity 0.2s ease-in;-o-transition: opacity 0.2s ease-in;-ms-transition: opacity 0.2s ease-in;transition: opacity 0.2s ease-in;}
+
+/* RTL */
+body.rtl .sprocket-headlines-badge {float: right;}
+body.rtl .sprocket-headlines-list {float: right;}

@@ -1,0 +1,10 @@
+/**
+* @version   $Id: error.css 806 2012-05-25 00:02:07Z josh $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+.rt-error-box {width: 500px;margin: 0 auto;padding: 20px;border-radius: 5px;}
+.rt-error-box img {padding:0 0 20px 20px;}
+.rt-error-box .readoncust {margin-left: 270px;}

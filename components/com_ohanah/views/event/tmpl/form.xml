@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="ADD_EVENT_LAYOUT">
+		<message>
+			<![CDATA[DEFAULT_OHANAH_ADD_EVENT_LAYOUT_DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>DEFAULT_OHANAH_ADD_EVENT_LAYOUT</name>
+		<description>DEFAULT_OHANAH_ADD_EVENT_LAYOUT_DESC</description>
+	</state>
+</metadata>

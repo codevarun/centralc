@@ -1,0 +1,71 @@
+/**
+* @version   $Id: android-gantry.css 1029 2012-05-31 22:05:37Z kevin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Menu */
+body #rt-menu .rt-container {background: transparent;height:auto;overflow:hidden;}
+.rt-container {background: none !important;}
+.rt-menu-container {overflow:hidden;}
+body #rt-navigation {margin: 0;padding: 5px 5px 0 5px;}
+#rt-menu-root {z-index:50;position:relative;}
+#rt-menu ul.menu ul {display: none;position:absolute;z-index:5;top: 0; left: 0;background:white;}
+#rt-menu , #rt-menu .rt-container {position:relative;z-index:10000;}
+body.rt-normal #rt-menu .rt-container, body.rt-flipped #rt-menu .rt-container {width: 320px;}
+body.rt-right #rt-menu .rt-container, body.rt-left #rt-menu .rt-container {width: 480px;}
+#rt-menu ul.menu {height:100%;}
+#rt-menu ul.menu li a:hover, #rt-menu ul.menu li.active a:hover {}
+body #rt-menu {background: transparent !important;height: auto;}
+body #rt-menu ul.menu li a {font-size: 0.9em;line-height:2.2em !important;padding: 0 10px;}
+#rt-left-menu, #rt-right-menu {background-image: none;background-repeat: no-repeat; width: 26px; height: 27px;position: absolute;z-index:2;}
+#rt-left-menu {background-position: bottom left;left: 0;}
+#rt-right-menu {background-position: top left;right:0;}
+#rt-menu ul.menu li {list-style: none;float: left;padding: 0;background: none;}
+
+.mainstyle-food-a #rt-menu ul.menu li a {color: #B5292C;text-shadow: 1px 1px 1px rgba(255,255,255,0.8);}
+.mainstyle-food-a #rt-menu ul.menu li a:hover, .mainstyle-food-a #rt-menu ul.menu li a:active, .mainstyle-food-a #rt-menu ul.menu li.active a {color: #222;}
+.mainstyle-food-b #rt-menu ul.menu li a {color: #B5292C;text-shadow: 1px 1px 1px rgba(255,255,255,0.8);}
+.mainstyle-food-b #rt-menu ul.menu li a:hover, .mainstyle-food-b #rt-menu ul.menu li a:active, .mainstyle-food-b #rt-menu ul.menu li.active a {color: #000;}
+.mainstyle-community-a #rt-menu ul.menu li a {color: #C7C7C7;text-shadow: -1px -1px 1px #000;}
+.mainstyle-community-a #rt-menu ul.menu li a:hover, .mainstyle-community-a #rt-menu ul.menu li a:active, .mainstyle-community-a #rt-menu ul.menu li.active a {color: #fff;}
+.mainstyle-community-b #rt-menu ul.menu li a {color: #C7C7C7;text-shadow: -1px -1px 1px #000;}
+.mainstyle-community-b #rt-menu ul.menu li a:hover, .mainstyle-community-b #rt-menu ul.menu li a:active, .mainstyle-community-b #rt-menu ul.menu li.active a {color: #fff;}
+.mainstyle-sports-a #rt-menu ul.menu li a {color: #5D6163;text-shadow: 1px 1px 1px rgba(255,255,255,0.8);}
+.mainstyle-sports-a #rt-menu ul.menu li a:hover, .mainstyle-sports-a #rt-menu ul.menu li a:active, .mainstyle-sports-a #rt-menu ul.menu li.active a {color: #000;}
+.mainstyle-sports-b #rt-menu ul.menu li a {color: #C7C7C7;text-shadow: -1px -1px 1px #000;}
+.mainstyle-sports-b #rt-menu ul.menu li a:hover, .mainstyle-sports-b #rt-menu ul.menu li a:active, .mainstyle-sports-b #rt-menu ul.menu li.active a {color: #fff;}
+.mainstyle-travel-a #rt-menu ul.menu li a {color: #C7E1FB;text-shadow: -1px -1px 1px rgba(0,0,0,0.5);}
+.mainstyle-travel-a #rt-menu ul.menu li a:hover, .mainstyle-travel-a #rt-menu ul.menu li a:active, .mainstyle-travel-a #rt-menu ul.menu li.active a {color: #fff;}
+.mainstyle-travel-b #rt-menu ul.menu li a {color: #C7E1FB;text-shadow: -1px -1px 1px rgba(0,0,0,0.5);}
+.mainstyle-travel-b #rt-menu ul.menu li a:hover, .mainstyle-travel-b #rt-menu ul.menu li a:active, .mainstyle-travel-b #rt-menu ul.menu li.active a {color: #fff;}
+.mainstyle-games-a #rt-menu ul.menu li a {color: #C7C7C7;text-shadow: -1px -1px 1px #000;}
+.mainstyle-games-a #rt-menu ul.menu li a:hover, .mainstyle-games-a #rt-menu ul.menu li a:active, .mainstyle-games-a #rt-menu ul.menu li.active a {color: #fff;}
+.mainstyle-games-b #rt-menu ul.menu li a {color: #C7C7C7;text-shadow: -1px -1px 1px #000;}
+.mainstyle-games-b #rt-menu ul.menu li a:hover, .mainstyle-games-b #rt-menu ul.menu li a:active, .mainstyle-games-b #rt-menu ul.menu li.active a {color: #fff;}
+
+/* Reminder:  320 / 480 */
+body {word-wrap: break-word;}
+body .rt-block {padding: 20px;margin-left: 5px !important;margin-right: 5px !important;}
+body h1 {border-bottom: 0;}
+a {-webkit-transition: color 0.2 ease-out;}
+body.rt-normal #form-login .inputbox, body.rt-flipped #form-login .inputbox {width: 100px !important;}
+#form-login fieldset p {margin:0;}
+body .rt-demo-grid-2, body .rt-demo-grid-3, body .rt-demo-grid-4, body .rt-demo-grid-5, body .rt-demo-grid-6, body .rt-demo-grid-7, body .rt-demo-grid-8, body .rt-demo-grid-9 {float: none;margin-left: 0;margin-right: 0;}
+body #rocket {margin: 0 auto;}
+body .main-bg {background-position: 40% 0;background-size: 400px auto;}
+body #rt-logo {margin: 0;padding: 0;}
+body .logo-block {padding: 0;}
+.rt-footer-inner {margin: 0 5px !important;}
+
+/* Joomla */
+.component-content .edit img, .component-content .actions, .component-content .rokgallery-wrapper {display: none;}
+
+/* Tabs */
+body .sprocket-tabs-nav li {margin-right: 5px;}
+body .sprocket-tabs-nav > li > .sprocket-tabs-inner {font-size: 1em;}
+body .sprocket-tabs-nav li .sprocket-tabs-inner {padding: 9px 7px;}
+
+/* Demo */
+.fp-img1, .fp-img2, .fp-img3 {width: 80px !important;height: 50px !important;}

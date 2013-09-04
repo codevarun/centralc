@@ -1,0 +1,209 @@
+
+.ohanah.module input.text{
+	padding-left:15px;
+	padding-top:8px;
+	padding-bottom:6px;
+	width:100%;
+	text-align:left;
+	height:24px;
+	border:1px solid #cbcdcf !important;
+	background:url(ohanah_images/input_bg_inset.png) top center repeat-x;
+	font-size:13px;
+	border-radius:2px;
+	border-top: 1px solid #9DA2AD !important;
+}
+
+.ohanah.module .part-right input.text {
+	width: 225px !important;
+}
+
+.ohanah.module .dropdown.size1 select, .ohanah.module .dropdown.size2 select, .ohanah.module .dropdown.size5 select, .ohanah.module .dropdown.size3 select, .ohanah.module .dropdown.size4 select {
+	text-align:left;
+	height:38px;
+	border:none !important;
+	padding:9px 5px 5px 8px; 
+	font-size:13px;
+	vertical-align:middle;
+	background: transparent;
+	font-weight:bold;
+	color: #455868;
+}
+
+.ohanah.module .dropdown.size1 select {
+	width:316px;
+}
+
+.ohanah.module .dropdown.size5 select {
+	width:400px;
+}
+
+.ohanah.module .dropdown.size2 select {
+	width:182px;
+}
+
+.ohanah.module .dropdown.size3 select {
+	width:105px;
+}
+
+.ohanah.module .dropdown.size4 select {
+	width:143px;
+}
+
+.ohanah.module input.size5{
+	width:299px !important;
+}
+.ohanah.module input.size6{
+	width:645px !important;
+}
+.ohanah.module input.size7{
+	width:336px !important;
+}
+
+.ohanah.module .dropdown.size1, .ohanah.module .dropdown.size2, .ohanah.module .dropdown.size3, .ohanah.module .dropdown.size4, .ohanah.module .dropdown.size5{
+	border:1px solid #cbcdcf !important;
+	display:block;
+	height: 38px;
+	overflow: hidden;
+	background: url(ohanah_images/select_arrow.png) no-repeat right;
+	border-radius:2px;
+	box-shadow: 0 1px 1px rgba(155,122,18,0.1);
+	
+}
+
+.ohanah.module .dropdown.size1{
+	width: 240px;
+}
+
+.ohanah.module .dropdown.size5{
+	width: 350px;
+}
+
+.ohanah.module .dropdown.size2{
+	width: 150px;
+}
+
+.ohanah.module .dropdown.size3{
+	width: 59px;
+}
+
+.ohanah.module .dropdown.size4{
+	width: 112px;
+	
+}
+
+.ohanah.module .dropdownWrapper{
+	background:url(ohanah_images/input_bg.png) bottom center repeat-x;
+	float:right;
+}
+
+.ohanah.module .dropdownWrapper.left{
+	margin-right:10px;
+	float:left;
+}
+
+
+.ohanah.module .small{
+	font-size:11px;
+	color:#8c99a4;
+	padding-top: 5px;
+}
+
+.ohanah.module div.small a{
+	padding-left: 5px;
+	color:#8c99a4;
+
+}
+
+.ohanah.module .bordered{
+	border: 1px solid #CCCCCC;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding:2px;
+	box-shadow: 0 1px 0px rgba(204,204,204,0.5);
+	border-bottom: 1px solid #C7C9C9;	
+}
+
+.ohanah.module .fieldTitle{
+	line-height:60px;
+	font-size:13px;
+	font-weight:bold;
+	color:#8c99a4;
+}
+
+.ohanah.module .fifty{
+	width:50%;
+	float:left;
+}
+
+.ohanah.module .description{
+	background:url(ohanah_images/input_bg_inset.png) top center repeat-x;
+	width:89%;
+	height:108px;
+	padding:15px;
+	font-size:13px !important;
+	font-family:Arial;
+	resize: none;
+	border-radius: 2px;
+}
+
+.ohanah.module .formDate, .formTime{
+	width:31% !important;
+	color:#8c99a4;
+	margin-right:10px;
+}
+
+.ohanah.module #recurrCount{
+	color:#8c99a4;
+}
+
+.ohanah.module .formDate2, .formTime2{
+	width:27% !important;
+}
+
+.ohanah.module #eventPicture .button, .ohanah.module #eventPhotos .button, .ohanah.module .panelFooter .button{
+	border: 1px solid #CCCCCC;
+	font-size:13px;
+	font-weight:bold;
+	color:#455868;
+	background:url(ohanah_images/input_bg.png) bottom center repeat-x;
+	height:40px;
+	padding:0 10px 3px;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px rgba(155,122,18,0.1);
+}
+
+.ohanah.module input, textarea, select {
+   -webkit-appearance: none;
+}
+
+.ohanah.module input[type=checkbox], .ohanah.module input[type=radio] {
+	-webkit-box-shadow: 1px 1px 1px #fff;
+   display: inline-block;
+   font-size: 15px;
+   line-height: 1em;
+   
+   width: 14px;
+   height: 14px;
+   vertical-align: text-top;
+}
+
+.ohanah.module input[type=radio] {
+    -webkit-border-radius: 2em; /* Make radios round */
+}
+
+.ohanah.module input[type=radio]:checked {
+   background: url("ohanah_images/selected.png") no-repeat center center;
+}
+
+.ohanah.module input[type=checkbox] {
+   background: url("ohanah_images/unchecked.png") no-repeat center center;
+}
+
+.ohanah.module input[type=checkbox]:checked {
+   background: url("ohanah_images/checked.png") no-repeat center center;
+}
+
+.ohanah.module #minwidth-body #content-box .padding {
+    padding: 0 0 0;
+}
